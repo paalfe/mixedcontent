@@ -1,0 +1,2 @@
+#!/bin/sh
+AE_SINK=ALSA kodi

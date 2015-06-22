@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=TFTPgui
+GenericName=TFTPgui
+Comment=TFTPgui - a free tftp Server
+Exec=tftpgui
+Icon=/usr/local/tftpgui/TFTPicon.ico
+Terminal=false
+Type=Application
+Categories=Internet;
+

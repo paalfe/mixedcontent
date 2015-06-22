@@ -1,0 +1,2 @@
+#!/bin/sh
+pkexec python3 /usr/local/tftpgui/tftpgui.py

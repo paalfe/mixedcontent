@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=Visual Studio Code
+Type=Application
+Icon=/usr/local/VSCode/resources/app/vso.png
+Exec=/usr/local/VSCode/Code
+Comment=Visual Studio focused on modern web and cloud
+Categories=Development;IDE;
+Terminal=false
+X-Ayatana-Desktop-Shortcuts=VSCode
+
+[Programming Shortcut Group]
+Name=VSCode
+Exec=/usr/local/VSCode/Code
+TargetEnvironment=Unity

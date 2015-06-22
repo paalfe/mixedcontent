@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+  
+
+ <vendor>TFTPgui</vendor>
+ <vendor_url>https://code.google.com/p/tftpgui/</vendor_url>
+ <icon_name>text-editor</icon_name>
+
+
+ <action id="org.gnome.tftpgui">
+ 
+ <description>Run TFTPgui as root</description>
+ <description xml:lang="ast">Executar TFTPgui como root</description>
+ <description xml:lang="bg">Стартирай TFTPgui като администратор</description>
+ <description xml:lang="cs">Spustit TFTPgui jako root</description>
+ <description xml:lang="da">Kør TFTPgui med rodrettigheder</description>
+ <description xml:lang="de">TFTPgui als Systemverwalter starten</description>
+ <description xml:lang="el">Εκτέλεση TFTPgui ως διαχειριστής</description>
+ <description xml:lang="en_AU">Run TFTPgui as root</description>
+ <description xml:lang="es">Iniciar TFTPgui como superusuario</description>
+ <description xml:lang="fi">Käynnistä TFTPgui pääkäyttäjän oikeuksin.</description>
+ <description xml:lang="fr">Lancer TFTPgui en tant que root</description>
+ <description xml:lang="he">הרץ את TFTPgui בתור שורש</description>
+ <description xml:lang="hu">TFTPgui futtatása rendszergazdaként</description>
+ <description xml:lang="is">Keyra TFTPgui sem kerfisstjóri (root)</description>
+ <description xml:lang="it">Esegui TFTPgui come amministratore</description>
+ <description xml:lang="ja">root で TFTPgui を起動</description>
+ <description xml:lang="kk">TFTPgui-ды әкімші ретінде орындау</description>
+ <description xml:lang="ko">Root 권한으로 TFTPgui 작동</description>
+ <description xml:lang="ms">Jalankan TFTPgui sebagai root</description>
+ <description xml:lang="nb">Kjør TFTPgui som root</description>
+ <description xml:lang="nl">TFTPgui draaien met rootbevoegdheid</description>
+ <description xml:lang="pl">Uruchom TFTPgui jako root</description>
+ <description xml:lang="pt">Executar TFTPgui como root</description>
+ <description xml:lang="pt_BR">Rodar TFTPgui como superusuário</description>
+ <description xml:lang="ro">Pornește TFTPgui ca root</description>
+ <description xml:lang="ru">Запустить TFTPgui от суперпользователя</description>
+ <description xml:lang="sk">Spustiť TFTPgui ako root</description>
+ <description xml:lang="th">เรียกทำงาน TFTPgui ในฐานะ root</description>
+ <description xml:lang="tr">TFTPgui'ı root olarak çalıştır</description>
+ <description xml:lang="uk">Запустити TFTPgui з правами суперкористувача</description>
+ <description xml:lang="zh_CN">以 root 身份运行 TFTPgui</description>
+ <description xml:lang="zh_TW">以 root 身份執行 TFTPgui</description>
+ <message>Authentication is required to run TFTPgui as root.</message>
+ <message xml:lang="ast">Ríquese l'autenticación pa executar TFTPgui como root.</message>
+ <message xml:lang="bg">Изисква се удостоверяване за да стартирате TFTPgui като администратор</message>
+ <message xml:lang="cs">Pro spuštění aplikace TFTPgui jako root se vyžaduje autentizace.</message>
+ <message xml:lang="da">Der kræves godkendelse for at køre TFTPgui som root.</message>
+ <message xml:lang="de">Legitimierung wird benötigt, um TFTPgui als Systemverwalter zu starten.</message>
+ <message xml:lang="en_AU">Authentication is required to run TFTPgui as root.</message>
+ <message xml:lang="es">Es necesario autentificarse para iniciar TFTPgui como superusuario.</message>
+ <message xml:lang="fi">Jotta TFTPgui voidaan käynnistää pääkäyttäjän oikeuksin, todennus tarvitaan.</message>
+ <message xml:lang="fr">Une authentification est requise pour lancer TFTPgui en tant que root.</message>
+ <message xml:lang="he">נדרש אימות כדי להריץ את TFTPgui בתור שורש.</message>
+ <message xml:lang="hu">A TFTPgui rendszergazdai futtatásához hitelesítés szükséges.</message>
+ <message xml:lang="is">Auðkenningar er krafist til að keyra TFTPgui sem kerfisstjóri (root)</message>
+ <message xml:lang="it">Per eseguire TFTPgui come amministratore è richiesta l'autenticazione</message>
+ <message xml:lang="ja">root で TFTPgui を起動するには認証が必要です。</message>
+ <message xml:lang="kk">TFTPgui-ды әкімші ретінде орындау үшін аутентификация керек.</message>
+ <message xml:lang="ko">Root 권한으로 TFTPgui를 작동하려면 인증이 필요합니다.</message>
+ <message xml:lang="ms">Pengesahihan diperlukan untuk jalankan TFTPgui sebagai root.</message>
+ <message xml:lang="nb">Identitetsbekreftelse kreves for å kjøre TFTPgui som root.</message>
+ <message xml:lang="nl">Authenticatie is vereist om TFTPgui met rootbevoegdheid te draaien.</message>
+ <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby uruchomić TFTPgui w trybie administratora.</message>
+ <message xml:lang="pt">Autenticação necessária para executar TFTPgui como root.</message>
+ <message xml:lang="pt_BR">Autenticação é requerida para rodar TFTPgui como superusuário.</message>
+ <message xml:lang="ro">Pentru a porni TFTPgui ca root este nevoie de autentificare.</message>
+ <message xml:lang="ru">Требуется аутентификация для запуска TFTPgui от суперпользователя</message>
+ <message xml:lang="sk">Na spustenie TFTPguiu ako root je potrebná autentifikácia.</message>
+ <message xml:lang="th">ต้องยืนยันตัวบุคคลก่อนเรียกทำงาน TFTPgui ในฐานะ root</message>
+ <message xml:lang="tr">TFTPgui'ı root olarak çalıştırmak için kimlik doğrulaması gereklidir</message>
+ <message xml:lang="uk">Вимагається розпізнавання для запуску TFTPgui з правами суперкористувача.</message>
+ <message xml:lang="zh_CN">以 root 身份运行 TFTPgui 需要进行身份验证。</message>
+ <message xml:lang="zh_TW">要以 root 身份執行 TFTPgui 需要認證。</message>
+ <defaults>
+ <allow_any>no</allow_any>
+ <allow_inactive>auth_admin</allow_inactive>
+ <allow_active>auth_admin</allow_active>
+ </defaults>
+ <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/python3</annotate>
+ <annotate key="org.freedesktop.policykit.exec.argv1">/usr/local/bin/tftpgui</annotate>
+ <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+ </action>
+
+</policyconfig>

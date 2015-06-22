@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=TeamSpeak
+GenericName=TeamSpeak
+Comment=TFTPgui - a free tftp Server
+Exec=/usr/local/teamspeak-client/ts3client_runscript.sh
+Icon=/usr/local/teamspeak-client/icon.png
+Terminal=false
+Type=Application
+Categories=Internet;
+

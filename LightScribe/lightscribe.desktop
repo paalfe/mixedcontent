@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.18.15.1
+Type=Application
+Terminal=false
+Exec=/opt/lightscribeApplications/SimpleLabeler/SimpleLabeler
+Name=LightScribe Disc Labeler
+Icon=/opt/lightscribeApplications/SimpleLabeler/content/images/LabelWizardIcon.png
+X-Ayatana-Desktop-Shortcuts=SimpleLabeler
+
+[Accessories Shortcut Group]
+Name=LightScribe Disc Labeler
+Exec=/opt/lightscribeApplications/SimpleLabeler/SimpleLabeler
+TargetEnvironment=Unity

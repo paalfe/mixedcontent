@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Wolf4SDL: Spear of Destiny Mission 1
+Comment=SDL-Port of Wolfenstein 3-D and Spear of Destiny
+Icon=wolf4sdl
+TryExec=wolf4sdl-sod
+Exec=wolf4sdl-sod --mission 1
+Categories=Game;ActionGame;

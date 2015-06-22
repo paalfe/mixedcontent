@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Kodi ALSA
+GenericName=Media Center
+Comment=Manage and view your media
+Exec=kodi-alsa
+Icon=kodi
+Terminal=false
+Type=Application
+Categories=AudioVideo;Video;Player;TV;
+

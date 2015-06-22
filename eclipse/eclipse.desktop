@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=Eclipse
+Type=Application
+Icon=/usr/local/eclipse/icon.xpm
+Exec="/usr/local/eclipse/eclipse" %f
+Comment=The Eclipse Integrated Development Environment
+Categories=Development;IDE;
+Terminal=false
+X-Ayatana-Desktop-Shortcuts=Eclipse
+
+[Programming Shortcut Group]
+Name=Eclipse
+Exec="/usr/local/eclipse/eclipse" %f
+TargetEnvironment=Unity

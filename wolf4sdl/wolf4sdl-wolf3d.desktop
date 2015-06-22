@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Wolf4SDL: Wolfenstein 3-D
+Comment=SDL-Port of Wolfenstein 3-D and Spear of Destiny
+Icon=wolf4sdl
+TryExec=wolf4sdl-wl6
+Exec=wolf4sdl-wl6
+Categories=Game;ActionGame;
