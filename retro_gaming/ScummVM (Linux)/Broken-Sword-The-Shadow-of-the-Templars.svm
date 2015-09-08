@@ -1,9 +1,0 @@
-[scummvm]
-fullscreen=true
-aspect_ratio=true
-
-[Broken-Sword-The-Shadow-of-the-Templars]
-description=Broken Sword: The Shadow of the Templars
-path=~/roms/ScummVM/data/Broken Sword 1 - The Shadows of the Templars
-gameid=sword1
-guioptions=sndNoMIDI noAspect
