@@ -1,0 +1,15 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Toonstruck]
+description=Toonstruck (DOS/English)
+path=~/roms/ScummVM/data/Toonstruck (CD)
+gameid=toon
+language=en
+platform=pc
+guioptions=lang_English

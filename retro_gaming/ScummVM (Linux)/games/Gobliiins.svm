@@ -1,0 +1,15 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Gobliiins]
+description=Gobliiins CD (v1.02/DOS/English (US))
+path=~/roms/ScummVM/data/Goblins 1 - Gobliiins
+gameid=gob
+language=us
+platform=pc
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English (US)

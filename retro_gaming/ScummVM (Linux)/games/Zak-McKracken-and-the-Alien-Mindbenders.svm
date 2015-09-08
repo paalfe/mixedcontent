@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Zak-McKracken-and-the-Alien-Mindbenders]
+description=Zak McKracken and the Alien Mindbenders (FM-TOWNS/English)
+talkspeed=28
+path=~/roms/ScummVM/data/Zak McKracken (FMTOWNS)
+gameid=zak
+language=en
+platform=fmtowns
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English

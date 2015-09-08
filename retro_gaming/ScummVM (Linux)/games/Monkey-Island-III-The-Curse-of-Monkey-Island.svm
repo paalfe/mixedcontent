@@ -1,0 +1,18 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Monkey-Island-III-The-Curse-of-Monkey-Island]
+dimuse_tempo=10
+description=The Curse of Monkey Island (Windows/English)
+talkspeed=28
+path=~/roms/ScummVM/data/monkey3
+gameid=comi
+language=en
+platform=windows
+guioptions=sndNoMIDI noAspect lang_English
+

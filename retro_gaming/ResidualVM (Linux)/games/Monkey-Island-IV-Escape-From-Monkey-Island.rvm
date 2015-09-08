@@ -1,0 +1,19 @@
+[residualvm]
+savepath=~/roms/ResidualVM/saves
+extrapath=~/roms/ResidualVM/extras
+themepath=~/roms/ResidualVM/themes
+gui_theme=modern
+fullscreen=true
+aspect_ratio=true
+
+[Monkey-Island-IV-Escape-From-Monkey-Island]
+description=Escape From Monkey Island (Windows/English)
+check_gamedata=false
+datausr_load=false
+path=~/roms/ResidualVM/data/monkey4-win-english
+engine_speed=62
+gameid=monkey4
+language=en
+platform=windows
+guioptions=sndNoMIDI gameOption1 lang_English
+

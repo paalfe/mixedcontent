@@ -1,0 +1,15 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Indiana-Jones-and-the-Last-Crusade]
+description=Indiana Jones and the Last Crusade (FM-TOWNS/English)
+path=~/roms/ScummVM/data/Indiana Jones 3 (FMTOWNS)
+gameid=indy3
+language=en
+platform=fmtowns
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English

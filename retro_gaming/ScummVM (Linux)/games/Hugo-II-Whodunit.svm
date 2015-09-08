@@ -1,0 +1,15 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Hugo-II-Whodunit]
+description=Hugo 2: Whodunit? (Windows/English)
+path=~/roms/ScummVM/data/Hugo 2 - Whodunit (The Hugo Trilogy)
+gameid=hugo2
+language=en
+platform=windows
+guioptions=lang_English

@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Loom-FMTOWNS]
+description=Loom (FM-TOWNS/English)
+talkspeed=57
+path=~/roms/ScummVM/data/Loom (FMTOWNS)
+gameid=loom
+language=en
+platform=fmtowns
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English

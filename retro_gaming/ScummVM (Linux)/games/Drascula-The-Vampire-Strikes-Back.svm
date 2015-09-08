@@ -1,0 +1,17 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Drascula-The-Vampire-Strikes-Back]
+description=Drascula: The Vampire Strikes Back (DOS/English)
+platform=pc
+gameid=drascula
+originalsaveload=false
+language=en
+path=~/roms/ScummVM/data/Drascula - The Vampire Strikes Back
+guioptions=sndNoMIDI lang_English
+

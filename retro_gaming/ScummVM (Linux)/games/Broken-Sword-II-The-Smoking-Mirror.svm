@@ -1,0 +1,14 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Broken-Sword-II-The-Smoking-Mirror]
+description=Broken Sword II: The Smoking Mirror
+path=~/roms/ScummVM/data/Broken Sword 2 - The Smoking Mirror
+gameid=sword2
+guioptions=sndNoMIDI noAspect
+

@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Full-Throttle]
+dimuse_tempo=10
+description=Full Throttle (Version B/English)
+talkspeed=85
+path=~/roms/ScummVM/data/fullthrottle
+gameid=ft
+language=en
+guioptions=sndNoMIDI lang_English

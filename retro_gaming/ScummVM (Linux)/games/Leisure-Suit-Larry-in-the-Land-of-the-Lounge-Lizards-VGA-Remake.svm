@@ -1,0 +1,15 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Leisure-Suit-Larry-in-the-Land-of-the-Lounge-Lizards-VGA-Remake]
+description=Leisure Suit Larry in the Land of the Lounge Lizards (SCI/DOS/English)
+path=~/roms/ScummVM/data/Leisure Suit Larry in the Land of the Lounge Lizards (Floppy DOS VGA Remake)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English

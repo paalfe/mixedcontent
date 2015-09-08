@@ -1,0 +1,15 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Space-Quest-III-The-Pirates-of-Pestulon]
+description=Space Quest III: The Pirates of Pestulon (DOS/English)
+path=~/roms/ScummVM/data/Space Quest 3 - The Pirates of Pestulon (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English

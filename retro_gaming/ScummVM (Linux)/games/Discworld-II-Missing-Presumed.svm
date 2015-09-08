@@ -1,0 +1,21 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Discworld-II-Missing-Presumed]
+description=Discworld 2: Missing Presumed ...!? (CD/DOS/English (GB))
+dclick_speed=10
+speech_volume=192
+talkspeed=58
+path=~/roms/ScummVM/data/Discworld 2 (CD DOS)
+subtitles=false
+gameid=tinsel
+language=gb
+sfx_volume=192
+music_volume=192
+platform=pc
+guioptions=noAspect lang_English (GB)

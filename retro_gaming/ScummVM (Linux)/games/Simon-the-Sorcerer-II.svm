@@ -1,0 +1,20 @@
+[scummvm]
+savepath=~/roms/ScummVM/saves
+extrapath=~/roms/ScummVM/extras
+themepath=~/roms/ScummVM/themes
+gui_theme=scummmodern
+fullscreen=true
+aspect_ratio=true
+
+[Simon-the-Sorcerer-II]
+description=Simon the Sorcerer 2 (CD/Windows/English)
+talkspeed=60
+path=~/roms/ScummVM/data/Simon the Sorcerer 2 Talkie (VGA-CD)(Win)[comp] - Roland MT-32 ROMs
+subtitles=false
+gameid=simon2
+language=en
+platform=windows
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions=launchNoLoad lang_English
