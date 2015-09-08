@@ -1,9 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Version=1.0
-Type=Application
-Categories=Game
-Name=Rocks'n'Diamonds
-Icon=rocksndiamonds
-Exec=/usr/games/rocksndiamonds
-X-Osso-Type=application/x-executable
