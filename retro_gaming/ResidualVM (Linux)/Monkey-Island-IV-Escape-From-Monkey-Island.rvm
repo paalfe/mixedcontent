@@ -1,30 +1,15 @@
 [residualvm]
-mute=false
-speech_volume=192
-talkspeed=179
-soft_renderer=false
-subtitles=false
 fullscreen=true
-sfx_volume=192
-music_volume=192
-speech_mute=false
-lastselectedgame=Monkey-Island-IV-Escape-From-Monkey-Island
 aspect_ratio=true
-versioninfo=0.3.0git
-autosave_period=300
 
 [Monkey-Island-IV-Escape-From-Monkey-Island]
 description=Escape From Monkey Island (Windows/English)
-mute=false
-speech_volume=218
 check_gamedata=false
 datausr_load=false
 path=~/roms/ResidualVM/data/monkey4-win-english
 engine_speed=62
 gameid=monkey4
 language=en
-sfx_volume=187
-music_volume=68
 platform=windows
 guioptions=sndNoMIDI gameOption1 lang_English
 
