@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=Minecraft
+GenericName=Game
+Comment=Break and place blocks to build imaginative things
+Exec=java -jar /usr/share/minecraft/minecraft.jar
+Icon=minecraft
+Categories=Game
+StartupNotify=true
+Actions=Screenshots;Resources;Wiki
+StartupWMClass=net-minecraft-bootstrap-Bootstrap
+
+[Desktop Action Screenshots]
+Name=_Screenshots
+Exec=xdg-open .minecraft/screenshots/
+
+[Desktop Action Resources]
+Name=_Resource Packs
+Exec=xdg-open .minecraft/resourcepacks/
+
+[Desktop Action Wiki]
+Name=_Wiki
+Exec=xdg-open http://www.minecraftwiki.net/
