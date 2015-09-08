@@ -8,7 +8,6 @@ enable_gs=false
 last_fullscreen_mode_width=1920
 talkspeed=60
 mt32_device=null
-~/roms/ScummVM/data
 subtitles=false
 multi_midi=false
 fullscreen=true

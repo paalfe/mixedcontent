@@ -9,7 +9,6 @@ gui_theme=scummmodern
 last_fullscreen_mode_width=3840
 talkspeed=60
 gfx_mode=opengl_linear
-~/roms/ScummVM/data
 subtitles=false
 multi_midi=false
 fullscreen=true
@@ -34,12 +33,3 @@ gameid=agi
 language=en
 platform=pc
 guioptions=sndNoSpeech lang_English
-
-[King's-Quest-II-Romancing-the-Throne-COCO3]
-description=King's Quest II: Romancing the Throne (CoCo3/English)
-path=~/roms/ScummVM/data/King's Quest 2 - Romancing the Throne (Floppy DOS)
-gameid=agi
-language=en
-platform=coco3
-guioptions=sndNoSpeech lang_English
-

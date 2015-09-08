@@ -9,7 +9,6 @@ gui_theme=scummmodern
 last_fullscreen_mode_width=3840
 talkspeed=60
 gfx_mode=opengl_linear
-~/roms/ScummVM/data
 subtitles=false
 multi_midi=false
 fullscreen=true
@@ -34,11 +33,3 @@ gameid=sci
 language=en
 platform=pc
 guioptions=gameOption1 gameOption2 gameOption3 gameOption6 lang_English
-
-[Space-Quest-IV-Roger-Wilco-and-the-Time-Rippers-WIN]
-description=Space Quest IV: Roger Wilco and the Time Rippers (CD/Windows/English)
-path=~/roms/ScummVM/data/Space Quest 4 - Roger Wilco and the Time Rippers (CD DOS)
-gameid=sci
-language=en
-platform=windows
-guioptions=midiGM gameOption1 gameOption2 gameOption3 gameOption6 lang_English

@@ -9,7 +9,6 @@ gui_theme=scummmodern
 last_fullscreen_mode_width=3840
 talkspeed=60
 gfx_mode=opengl_linear
-~/roms/ScummVM/data
 subtitles=false
 multi_midi=false
 fullscreen=true
@@ -26,14 +25,6 @@ versioninfo=1.7.0
 speech_mute=false
 gui_language=C
 enable_gs=false
-
-[King's-Quest-VI-Heir-Today-Gone-Tomorrow-DOS]
-description=King's Quest VI: Heir Today, Gone Tomorrow (CD/DOS/English)
-path=~/roms/ScummVM/data/King's Quest 6 - Heir Today, Gone Tomorrow (CD DOS, Windows)
-gameid=sci
-language=en
-platform=pc
-guioptions=gameOption1 gameOption2 gameOption3 lang_English
 
 [King's-Quest-VI-Heir-Today-Gone-Tomorrow-WIN]
 description=King's Quest VI: Heir Today, Gone Tomorrow (CD/Windows/English)

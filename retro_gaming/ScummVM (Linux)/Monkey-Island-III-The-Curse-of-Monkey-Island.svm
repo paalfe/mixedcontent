@@ -3,29 +3,28 @@ last_fullscreen_mode_height=1080
 mute=false
 speech_volume=192
 native_mt32=false
-mt32_device=null
 midi_gain=100
-gui_theme=scummmodern
-last_fullscreen_mode_width=3840
+enable_gs=false
+last_fullscreen_mode_width=1920
 talkspeed=60
-gfx_mode=opengl_linear
-~/roms/ScummVM/data
+mt32_device=null
 subtitles=false
 multi_midi=false
 fullscreen=true
-temp_selection=sword2
+versioninfo=1.7.0
+speech_mute=false
 gm_device=null
 sfx_volume=192
 music_volume=192
 autosave_period=300
-lastselectedgame=sq4-cd
+lastselectedgame=Monkey-Island-III-The-Curse-of-Monkey-Island
 music_driver=auto
 opl_driver=auto
 aspect_ratio=true
-versioninfo=1.7.0
-speech_mute=false
+temp_selection=sword2
+gui_theme=scummmodern
 gui_language=C
-enable_gs=false
+gfx_mode=opengl_linear
 
 [Monkey-Island-III-The-Curse-of-Monkey-Island]
 dimuse_tempo=10
@@ -36,3 +35,4 @@ gameid=comi
 language=en
 platform=windows
 guioptions=sndNoMIDI noAspect lang_English
+

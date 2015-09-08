@@ -9,7 +9,6 @@ gui_theme=scummmodern
 last_fullscreen_mode_width=3840
 talkspeed=60
 gfx_mode=opengl_linear
-~/roms/ScummVM/data
 subtitles=false
 multi_midi=false
 fullscreen=true

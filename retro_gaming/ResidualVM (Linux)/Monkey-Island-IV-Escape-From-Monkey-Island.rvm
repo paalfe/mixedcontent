@@ -5,14 +5,13 @@ talkspeed=179
 soft_renderer=false
 subtitles=false
 fullscreen=true
-browser_lastpath=~/roms/ResidualVM/data/monkey4-win-english
 sfx_volume=192
 music_volume=192
-autosave_period=300
+speech_mute=false
 lastselectedgame=Monkey-Island-IV-Escape-From-Monkey-Island
 aspect_ratio=true
 versioninfo=0.3.0git
-speech_mute=false
+autosave_period=300
 
 [Monkey-Island-IV-Escape-From-Monkey-Island]
 description=Escape From Monkey Island (Windows/English)

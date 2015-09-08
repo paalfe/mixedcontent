@@ -9,7 +9,6 @@ gui_theme=scummmodern
 last_fullscreen_mode_width=3840
 talkspeed=60
 gfx_mode=opengl_linear
-~/roms/ScummVM/data
 subtitles=false
 multi_midi=false
 fullscreen=true
@@ -29,7 +28,7 @@ enable_gs=false
 
 [King's-Quest-III-To-Heir-Is-Human]
 description=King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5"/DOS/English)
-path=/run/user/1000/gvfs/smb-share\:server\=nas01.local\,share\=mirrored\,user\=pal-k/gaming_ready4use/roms/ScummVM/data/King's Quest 3 - To Heir is Human (Floppy DOS)
+path=~/roms/ScummVM/data/King's Quest 3 - To Heir is Human (Floppy DOS)
 gameid=agi
 language=en
 platform=pc
