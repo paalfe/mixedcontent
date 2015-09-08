@@ -3,6 +3,7 @@ savepath=~/roms/ScummVM/saves
 extrapath=~/roms/ScummVM/extras
 themepath=~/roms/ScummVM/themes
 gui_theme=scummmodern
+gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
