@@ -15,3 +15,5 @@ sudo chmod +x /usr/share/applications/elma2.desktop
 sudo xdg-desktop-menu install --novendor /usr/share/applications/elma2.desktop
 sudo xdg-desktop-menu forceupdate
 
+
+ (Work In Progress)
