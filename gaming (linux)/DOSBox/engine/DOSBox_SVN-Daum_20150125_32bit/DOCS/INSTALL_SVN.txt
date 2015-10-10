@@ -1,0 +1,311 @@
+===============================================================
+How to build DOSBox SVN-Daum on 32-bit based system with GCC
+===============================================================
+Refer to the official documentation INSTALL.TXT for the compilation.
+
+For the debugger-enabled build, refer to the www.vogons.org/viewtopic.php?t=3944
+Curses library is required to support debugging.
+
+The SVN-Daum build requires the following libraries:
+SDL | physfs | zlib | libpng | fluidsynth | libflac | libogg | libvorbis | libpcap | freetype | sdl_net | sdl_sound | libtbb
+
+mpg123 is needed for the Visual Studio environment
+
+
+
+Linux
+============
+Written based on Ubuntu 32bit.
+A resulting binary may not be compatible with another Linux distribution such as CentOS due to their higher libc version.
+
+Get the latest version of Ubuntu Desktop (14.10 or higher) from the http://www.ubuntu.com/.
+After the installation, create and logon as a user account.
+
+The SVN-Daum source can be obtained from the http://ykhwong.x-y.net
+
+******* Preparation
+Open Terminal.
+To obtain the administrative previlege, type:
+  1) Ubuntu
+      sudo su
+  2) Other distributions
+      su -
+
+* To download the source from repository, Mercurial, Git and Subversion are required.
+apt-get install mercurial git subversion
+
+* This step is for setting basic components for building DOSBox.
+apt-get install autoconf
+apt-get install libglew-dev
+apt-get install g++
+apt-get install cmake
+apt-get install cmake-qt-gui
+
+apt-get install libasound2-dev libpulse-dev
+
+* The following lines are for the libpcap installation.
+apt-get install flex
+apt-get install bison
+
+Change to the /tmp by typing cd /tmp
+
+******* automake and libtool
+The automake tool can be obtained from the http://ftp.gnu.org/gnu/automake
+Get the automake-1.13.4 (http://ftp.gnu.org/gnu/automake/automake-1.13.4.tar.gz)
+and extract it to /tmp
+./configure --prefix=/usr/local && make && make install
+
+Download the libtool from the http://www.gnu.org/software/libtool/ and extract it to /tmp
+./configure --prefix=/usr/local && make && make install
+
+Don't install the automake 1.14 or above that may interrupt the compilation of Glib and DOSBox.
+
+******* SDL
+Never use the SDL 2.0 that is currently incompatible with DOSBox.
+Hg of SDL 1.2 is enough.
+hg clone -u SDL-1.2 http://hg.libsdl.org/SDL
+
+Change to the SDL directory.
+Get Moe's OpenglHQ patch from the http://ykhwong.x-y.net and apply it to the SDL source.
+This patch includes several fixes for DOSBox and also implements Moe's OpenglHQ output.
+
+patch -up1 < openglhq-dosbox-for-sdl-202121117_msvc_gcc.patch
+./autogen.sh && ./configure --enable-shared=no && make && make install
+
+******* zlib
+Get the latest version of zlib from the http://www.zlib.net/ and extract it to /tmp
+
+./configure --static && make && make install
+
+******* libpng
+git clone git://git.code.sf.net/p/libpng/code libpng-code
+
+After git clone, change to the libpng-code directory and type:
+cd libpng-code
+make -f scripts/makefile.gcc
+
+cp libpng.a /usr/local/lib/libpng.a
+cp png.h /usr/local/include/png.h
+cp pngconf.h /usr/local/include/pngconf.h
+cp pnglibconf.h /usr/local/include/pnglibconf.h
+cp libpng-config /usr/local/bin/libpng-config
+
+******* SDL_net
+The SDL_net is used for networking.
+Don't use the hg version of SDL_net as it does not directly support SDL 1.2.
+Get the SDL_net 1.2.8 and extract it to /tmp. Change to the sdl_net directory and type:
+./autogen.sh && ./configure --enable-shared=no && make && make install
+
+******** libflac (needed for SDL_sound)
+git clone git://git.xiph.org/flac.git
+
+After cloning, change to the flac directory and type:
+./autogen.sh && ./configure --enable-shared="" --enable-static && make && make install
+
+******** libogg (needed for SDL_sound and Vorbis)
+svn co http://svn.xiph.org/trunk/ogg
+
+After svn clone, change to the ogg directory and type:
+./autogen.sh && ./configure --enable-shared=no && make && make install
+
+******** libvobis (needed for SDL_sound)
+svn co http://svn.xiph.org/trunk/vorbis
+
+After svn clone, change to the vorbis directory and type:
+./autogen.sh && ./configure --enable-shared=no --disable-oggtest && make &&make install
+
+******** physfs
+This is used for zip/7z mounting.
+hg clone http://hg.icculus.org/icculus/physfs/
+
+Change to the physfs directory and type:
+cmake-gui .
+
+Click configure -> unix makefiles -> use default native compilers.
+Uncheck physfs_build_shared
+Click configure again
+Click generate and close the cmake window.
+Type:
+make && make install
+
+******* glib (needed for Fluidsynth)
+In order to install glib, libffi, expat and python are required.
+Visit http://www.linuxfromscratch.org/blfs/view/7.5/general/libffi.html
+Get libffi, extract it to /tmp and type:
+./configure --prefix=/usr/local && make && make install
+
+Get expat from the http://www.linuxfromscratch.org/blfs/view/svn/general/expat.html
+Extract it to /tmp and type:
+./configure --prefix=/usr/local && make && make install
+
+Get Python 2.7.9 from the http://www.linuxfromscratch.org/blfs/view/svn/general/python2.html
+(don't install if the Python has already been installed)
+Extract it to /tmp and type:
+./configure --prefix=/usr/local --enable-shared=no --with-system-expat --with-system-ffi --enable-unicode=ucs4 && make && make install
+
+Get glib from the http://www.linuxfromscratch.org/blfs/view/svn/general/glib2.html
+Extract it to /tmp and type:
+./configure --prefix=/usr/local --enable-gtk-doc-html=no --enable-debug=no --enable-static=yes --enable-shared=no && make && make install
+
+******** Fluidsynth
+This is used for loading soundfonts with MIDI synth.
+git clone git://git.code.sf.net/p/fluidsynth/code-git fluidsynth-code-git
+Change to the fluidsynth directory and type:
+cmake-gui .
+Click configure -> unix makefiles -> use default native compilers
+Uncheck build_shared_libs, pulseaudio, enable-dbus, and enable-ipv6
+Click configure again. Click generate, close cmake window, and type:
+make
+If pthread is missing, add "-lpthread" to src/CMakeFiles/fluidsynth.dir/link.txt
+make install
+
+******** SDL_sound
+hg clone http://hg.icculus.org/icculus/SDL_sound/
+Change to the SDL_sound directory and type:
+./bootstrap && ./configure --enable-shared=no --enable-physfs=no && make && make install
+
+******** libfreetype
+This is used for printing.
+git version may not work. /*git clone git://git.sv.gnu.org/freetype/freetype2.git*/
+Get freetype-2.5.5.tar.gz from the http://www.freetype.org/. extract it to /tmp and type:
+./configure --enable-shared=no && make && make install
+
+******** libpcap
+This is used for computer networking / Internet.
+Get libpcap-1.6.2.tar.gz from tcpdump.org. Extract it /tmp and type:
+./configure --enable-shared=no && make && make install
+
+******** libtbb
+This library will be used by xbrz scaler. (Don't compile!)
+Get the latest version of tbb from the official website http://threadingbuildingblocks.org/
+Extract it to /tmp and move the bin, include, and lib directories to /usr/local
+Copy everything from /usr/local/lib/ia32/gcc4.4 to /usr/local/lib
+
+--------------------
+1) GL.h modification
+Open /usr/include/GL/gl.h with text editor.
+Comment out a block of code as shown below:
+/* 
+GLAPI void GLAPIENTRY glActiveTextureARB(GLenum texture); 
+... 
+GLAPI void GLAPIENTRY glMultiTexCoord4svARB(GLenum target, const GLshort *v); 
+*/ 
+
+The above change may be reverted after compiling DOSBox SVN-Daum.
+
+If everything is fine, delete everything in the working directory (/tmp).
+
+2. Get openglide source from the http://sourceforge.net/projects/openglide/
+Don't compile! Just extract it to /tmp/openglide
+
+---------------------------------
+Compiling DOSBox SVN-Daum
+
+Grab the source from the http://ykhwong.x-y.net and extract it to /tmp/dosbox.
+
+The following lines can be achieved by typing chmod +x autogen.sh && ./autogen.sh
+aclocal
+autoheader
+automake --include-deps --add-missing --copy
+autoconf
+
+To add some missing libraries and the support for the C++11 to dosbox, type:
+export LIBS='-ltbb -lglib-2.0 -lgthread-2.0 -lFLAC -ldl -lglib-2.0 -ldbus-1 -lasound -lpulse'
+export CXX='/usr/bin/g++ -std=c++11'
+export CFLAGS="-s -O2 -msse2"
+export CXXFLAGS="-s -O2 -msse2"
+export LDFLAGS="-static-libgcc -static-libstdc++"
+
+./configure --enable-core-inline && make
+
+A DOSBox binary will be created under /tmp/dosbox/src
+
+
+
+
+Microsoft Windows
+=================
+Use MinGW/MSYS, a complete open source programming tool set.
+Download both the latest MinGW and MSYS from the http://www.mingw.org, and install MinGW first.
+Run MSYS installer and specify the location of MinGW installation directory.
+
+After the installation of the tool set, download and install the following:
+* mercurial (hg) from the http://mercurial.selenic.com/
+* subversion from the http://tortoisesvn.net/
+* git from the http://git-scm.com/
+
+These can be readily used on MinGW/MSYS shell commandline.
+
+Direct3D headers for MinGW can be obtained from the http://dim-i.net/2004/06/26/directx-devpak-for-dev-cpp/
+Download the DX9 Devpack, extract it with 7zip for the use with msys.
+
+pkg-config may be required. It can be obtained from the http://sourceforge.net/projects/gimp-win/files/
+
+libtool, autoconf, automake, and gcc (including c++, core, libstdc++) can be obtained from the http://sourceforge.net/projects/mingw/files/
+Download them and extract their binary and header files to the appropriate directory (e.g., /usr/local).
+For the GCC 4.7.2 or above, add "-mno-ms-bitfields" to CXXFLAGS before running configure.
+
+CMake can be obtained from the http://www.cmake.org/
+
+Follow the above instruction for Linux (except apt-get and gl.h modification part) in order to compile win32 build.
+
+
+
+
+OS X
+==============
+DOSBox can be compiled with one of the following compilers: Clang or GCC.
+Open App Store and download and install Xcode that contains the Clang first.
+
+The MacPorts is already included as a bundle of the XCode.
+However, the Macports can also be manually downloaded  from the http://www.macports.org/
+
+Usage of the MacPorts:
+In order to install a package, type: sudo port install [package-name]
+For more information about the [package-name], refer to the http://www.macports.org/ports.php
+
+Example:
+In order to install the FluidSynth, type: sudo port install fluidsynth +universal
+
+Most of the remaining libraries required by DOSBox can be installed by this way.
+
+For the GCC installation (optional):
+In order to install the GCC version 4.8 type:
+sudo port install gcc48 +universal
+port select --set gcc mp-gcc48
+
+Obtain the source and extract it to /dosbox. Change to the dosbox source directory.
+Do "./autogen.sh" or type the following:
+aclocal
+autoheader
+automake --include-deps --add-missing --copy 
+autoconf
+export CPPFLAGS="-I/opt/local/include"
+
+For the Clang:
+export CC='gcc -arch i386'
+export CXX='g++ -std=c++11 -arch i386'
+export GCOV='gcov -arch i386'
+
+For the GCC:
+export CC='/opt/local/bin/gcc -arch i386 -static-libgcc -static-libstdc++'
+export CXX='/opt/local/bin/g++ -std=c++11 -arch i386  -static-libgcc -static-libstdc++'
+export GCOV='/opt/local/bin/gcov -arch i386'
+
+For the libraries to be dynamically linked, type:
+export LIBS='libtbb.dylib -framework CoreAudio -framework CoreMidi -framework AudioToolbox -framework AudioUnit'
+
+For the libraries to be statically linked, set the following LIBS variable in src/Makefile:
+LIBS=-framework IOKit -framework OpenGL -framework Carbon -framework ApplicationServices /opt/local/lib/libSDL_sound.a 
+-framework CoreAudio -framework CoreMidi -framework AudioToolbox -framework AudioUnit -L/opt/local/lib /opt/local/lib/libSDLmain.a 
+-Wl,-framework,AppKit /opt/local/lib/libSDL.a -Wl,-framework,Cocoa /opt/local/lib/libpng.a /opt/local/lib/libz.a -L/opt/local/lib 
+/opt/local/lib/libfreetype.a /opt/local/lib/libz.a /opt/local/lib/libbz2.a /opt/local/lib/libpng16.a /opt/local/lib/libpcap.a 
+/opt/local/lib/libSDL_net.a /opt/local/lib/libX11.a /opt/local/lib/libfluidsynth.a /opt/local/lib/libphysfs.a /opt/local/lib/libz.a 
+/opt/local/lib/libflac.a /opt/local/lib/libogg.a /opt/local/lib/libmodplug.a /opt/local/lib/libspeex.a /opt/local/lib/libvorbis.a 
+/opt/local/lib/libxcb.a /opt/local/lib/libvorbisfile.a /opt/local/lib/libvorbisenc.a /opt/local/lib/libportaudio.a /opt/local/lib/libdbus-1.a 
+/opt/local/lib/libgthread-2.0.a /opt/local/lib/libreadline.a /opt/local/lib/libsndfile.a /opt/local/lib/libjack.a /opt/local/lib/libXrandr.a 
+/opt/local/lib/libglib-2.0.a /opt/local/lib/libiconv.a /opt/local/lib/libintl.a /opt/local/lib/libtermcap.a /opt/local/lib/libXext.a 
+/opt/local/lib/libXrender.a /opt/local/lib/libXau.a /opt/local/lib/libXdmcp.a /opt/local/lib/libtbb.a
+
+./configure --enable-core-inline --prefix=/opt/local --host=i386
+make

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+declare -r CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+  export LD_LIBRARY_PATH="${CURRENT_DIR}/libs/x86_64"
+  "${CURRENT_DIR}/dosbox_x86_64" "$@"
+
