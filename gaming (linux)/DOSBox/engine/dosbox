@@ -1,0 +1,13 @@
+#!/bin/bash
+
+declare -r CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+declare -r ARCH=`uname -m`
+
+if [ "$ARCH" == "x86_64" ]; then
+  "${CURRENT_DIR}/DOSBox_0.74/runme64" "$@"
+fi
+
+if [ "$ARCH" == "i686" ]; then
+  "${CURRENT_DIR}/DOSBox_0.74/runme32" "$@"
+fi
+

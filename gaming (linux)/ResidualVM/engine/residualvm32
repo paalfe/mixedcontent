@@ -1,0 +1,6 @@
+#!/bin/bash
+
+declare -r CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+  "${CURRENT_DIR}/ResidualVM_unstable_20151008/residualvm_i386" "$@"
+

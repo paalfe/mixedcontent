@@ -1,0 +1,12 @@
+residualvm (0.3.0git-20151008) experimental; urgency=low
+
+  * GIT snapshot.
+
+    Build-date: Thu, 08 Oct 2015 03:06:19 +0200
+
+    Please don't file bugs you find in this package in the Debian Bug Tracking
+    system, use the ResidualVM team's own bug tracker instead.  You can find this
+    tracker at <https://www.github.com/residualvm/residualvm/issues>.
+
+ -- Pawel Kolodziejski <aquadran@residualvm.org>  Thu, 08 Oct 2015 03:06:19 +0200
+

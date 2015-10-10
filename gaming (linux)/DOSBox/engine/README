@@ -1,0 +1,37 @@
+IT IS RECOMMENDED TO USE THE 32-BIT VERSION OF DOSBOX.
+THE 64-BIT VERSION DO NOT SUPPORT DYNAMIC FPU CORE AND YOU MAY EXPERIENCE SLOWNESS!
+
+---------------------------------------------------------------------------------------------------------
+- DOSBox (Ubuntu Repository)
+The Plain/vanilla/clean Stable DOSBox 
+http://www.dosbox.com/ 
+https://apps.ubuntu.com/cat/applications/dosbox/ 
+
+sudo apt install dosbox:i386 ; 
+
+---------------------------------------------------------------------------------------------------------
+- dosbox-daily (Launchpad PPA)
+Daily build of dosbox trunk with mt32 patch (roms for mt32 are asked for during install)
+https://launchpad.net/~i30817/+archive/ubuntu/dosbox-patched
+
+sudo add-apt-repository -y ppa:i30817/dosbox-patched ; 
+sudo apt update ; 
+sudo apt install dosbox:i386 ; 
+
+
+---------------------------------------------------------------------------------------------------------
+- DOSBox SVN-Daum (32-bit only)  <= <= <= <= *** RECOMMENDED, HAS THE MOST ENHANCEMENTS :D *** 
+This build is an enhanced SVN build which incorporates unofficial features and fixes that are not officially part of DOSBox.
+http://ykhwong.x-y.net/
+http://cafe.daum.net/dosbox
+
+to fix "dosbox: error while loading shared libraries: libtbb.so.2: wrong ELF class: ELFCLASS64"
+  sudo apt install libtbb2:i386
+
+---------------------------------------------------------------------------------------------------------
+- DOSBox-X (source)
+DOSBox with accurate emulation and wide testing
+http://dosbox-x.com/
+https://github.com/joncampbell123/dosbox-x
+
+
