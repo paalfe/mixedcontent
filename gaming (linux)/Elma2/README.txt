@@ -9,7 +9,7 @@ sudo apt install libfreeimage3 ;
 wget http://users.jyu.fi/~mikkalle/Elma/elma2-0.1.0-Linux-release.sh -O /tmp/elma2.sh ; chmod +x /tmp/elma2.sh ; 
 sudo mkdir -pv /usr/share/games/elma2 ; sudo sh /tmp/elma2.sh --prefix=/usr/share/games/elma2 --exclude-subdir ; 
 
-sudo wget https://raw.githubusercontent.com/paalfe/mixedcontent/master/gaming%20(linux)/Elma2/elma2.png -O /usr/share/pixmaps/elma2.png ; 
-sudo wget https://raw.githubusercontent.com/paalfe/mixedcontent/master/gaming%20(linux)/Elma2/elma2.desktop -O /usr/share/applications/elma2.desktop ; 
+sudo wget "https://raw.githubusercontent.com/paalfe/mixedcontent/master/gaming%20(linux)/Elma2/elma2.png" -O /usr/share/pixmaps/elma2.png ; 
+sudo wget "https://raw.githubusercontent.com/paalfe/mixedcontent/master/gaming%20(linux)/Elma2/elma2.desktop" -O /usr/share/applications/elma2.desktop ; 
 
  (Work In Progress)
