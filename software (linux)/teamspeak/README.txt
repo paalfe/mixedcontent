@@ -6,5 +6,5 @@ sudo chmod -R 755 /usr/local/teamspeak-client ;
 sudo ln -s /usr/local/teamspeak-client/ts3client_runscript.sh /usr/local/bin/teamspeak-client ; 
 
 # Add a launcher for the TeamSpeak Client.
-sudo wget https://raw.githubusercontent.com/paalfe/mixedcontent/master/teamspeak/icon.png -O /usr/local/teamspeak-client/icon.png ; 
-sudo wget https://raw.githubusercontent.com/paalfe/mixedcontent/master/teamspeak/teamspeak-client.desktop -O /usr/share/applications/teamspeak-client.desktop ; 
+sudo wget "https://raw.githubusercontent.com/paalfe/mixedcontent/master/software%20(linux)/teamspeak/icon.png" -O /usr/local/teamspeak-client/icon.png ; 
+sudo wget "https://raw.githubusercontent.com/paalfe/mixedcontent/master/software%20(linux)/teamspeak/teamspeak-client.desktop" -O /usr/share/applications/teamspeak-client.desktop ; 
