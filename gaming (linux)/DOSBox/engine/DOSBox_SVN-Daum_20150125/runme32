@@ -3,5 +3,5 @@
 declare -r CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
   export LD_LIBRARY_PATH="${CURRENT_DIR}/libs32"
-  "${CURRENT_DIR}/dosbox_i686" "$@"
+  "${CURRENT_DIR}/dosbox_svn-daum_32bit/dosbox" "$@"
 
