@@ -1,7 +1,0 @@
-#!/bin/bash
-
-declare -r CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-  export LD_LIBRARY_PATH="${CURRENT_DIR}/libs/i686"
-  "${CURRENT_DIR}/dosbox_i686" "$@"
-
