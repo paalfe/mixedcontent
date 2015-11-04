@@ -1,0 +1,89 @@
+
+<!-- saved from url=(0048)http://http-server.carleton.ca/~dmcfet/menu.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>How to Make DOS Batch File Menus</title>
+<style type="text/css"></style><link rel="stylesheet" type="text/css" href="chrome-extension://pkehgijcmpdhfbdbbnkijodmdjhbjlgp/skin/socialwidgets.css"></head><body bgcolor="#000050" text="#FFFFFF" alink="#00ff00" link="#ff0000" vlink="#0000ff">
+<center><font size="6">How to Make DOS Menus</font></center><p>
+</p><dd>Why would I want to have anything to do with DOS menus?  Well, you may not have upgraded to Win95 yet and like me have DOS programs you like to run.  Sure you can type in all the command lines but what if you have people using your machine (guests maybe?) and they don't know what's on it let alone <img src="./How to Make DOS Batch File Menus_files/newmenu.gif" width="402" height="255" align="right" alt="what the menu looks like from dos">where.  Well a handy little menu can help them out.  I use a menu with all my DOS applications in it and a spot to get to windows.  Also, typing "1" is faster then typing "win."  Decided a menu may be just the thing for you?  Read on... note: these menus don't run on old versions of DOS, to see if you should bother to make one, <a href="http://http-server.carleton.ca/~dmcfet/files/menu.zip">take</a> mine (right) and try and run it.  If it doesn't run (like it won't start) then don't make your own cause you won't be able to run it!
+<p><font size="4">STEP 1, Make a rough copy</font>
+</p><blockquote>
+<dd>Decide what you want on your menu and how you want it to look.  This may involve exploring all the directories in your hard drive and finding all the DOS applications.
+</dd></blockquote>
+<p><font size="4">STEP 2, Make a list</font>
+</p><blockquote>
+<dd>You will have to enter the MS-DOS editor, it should be at c:\dos\edit.com .  Now just make a list of the things in your menu, it should look like this, but be sure to leave some space between the left of the page and your list.  You may also want to put an option in for a DOS prompt, or exit or something, as well as an option to edit the menu.
+<table align="left"><tbody><tr><td>
+<ol><li>Windows
+</li><li>Doom
+</li><li>Doom 2
+</li><li>Warcraft 2
+</li><li>Super Offroad
+</li><li>get it?</li></ol></td></tr></tbody></table>
+You don't have to begin each line with a number, and the number's don't have to be in order.  Instead of having Doom as 1, you could have it as 5 or !, the choice is yours.  Whatever you put in front of it is what you'll call it by though.  go to the first line of your list and hit enter a couple of times.  On the very first three lines line type 
+<pre>@echo off
+:start
+cls
+</pre>
+Then at the beginning of every line in your list you want to be able to see (this includes lines with lines on them) type <tt>echo</tt>.
+You may notice above I have two columns, you can define two columns if you want but you have to call a part of the file that switches to the other menu, in the case above you press U and then you can choose an option from the other menu. 
+</dd></blockquote><img src="./How to Make DOS Batch File Menus_files/menuli2.gif" align="RIGHT" width="65" height="302" alt="List of commands for lines">
+<p><font size="4">STEP 3, Lines, Lines, Lines.</font>
+<img src="./How to Make DOS Batch File Menus_files/menuli1.gif" align="LEFT" width="65" height="268" alt="List of commands for lines">
+
+
+</p><blockquote>
+<dd>Now you can make a nice border around your work.  You can draw lines in MS-DOS editor by holding down the ALT key and typing any number from 179 to 223.  Remember to type <code>echo</code> at the beginning of every line you want to appear (this includes lines with lines).  There is a complete list of characters on page 239 of the DOS 6 manual.  If you don't have the manual or can't see the image then  <a href="http://http-server.carleton.ca/files/menu.zip">get</a> a list I made.
+As you can see there are a variety of lines you can draw around the items in your menu.  If you have two columns they don't have to be connected  by lines in any way, except they must have an option to get back to the other column.  You don't have to put lines if you don't want to.  There is a large variety and there are intersections for all the types of lines, you should make the lines in MS-DOS editor, they will appear as characters with accents and fractions and stuff in Notepad, the rest of the batch file can be done in any text editor. 
+</dd></blockquote> 
+<img src="./How to Make DOS Batch File Menus_files/newmenu2.gif" width="408" height="264" alt="*" align="left">
+<p><font size="4">STEP 4, Make a Choice</font>
+
+</p></dd><dd>Next we shall start on the guts of the menu, the choice command (on the line that starts with choice).  You can see it on the menu (right) and how it <a href="http://http-server.carleton.ca/~dmcfet/menu.html#">looks</a>.  Let's put this line in.  All you do is type <tt>choice /c:</tt> after the last line of your list or box containing the list.  After the /c: put in all the options from your list, the character you put in the front of each line to call that option with, they may be numbers or whatever, don't put any commas or anything separating them.  You don't type echo at the beginning of this line.  There are other options available as well, you can have text in before the options, it goes after the choice but before the /c:...  You can see i put "Your choice:" in.  Another useful switch is the /t.  It chooses an option after a specified amount of time.  You can see i have it set to choose option 5 after 7 seconds.  The /t switch is simple, it goes like so <tt>/t(time),(option)</tt>.  For more semi-useful switches type <tt>help choice</tt> at the dos prompt.  
+<p><font size="4">He's Crazy!</font>
+</p><blockquote>
+<dd>You may have noticed that the time out is set for option 5 in 7 seconds but there is no option 5 on the menu and it says ten seconds remaining, I have an option 5, but it's just not on the menu, it's in the choice command and the other part below and that's what counts.  After the 7 seconds it chooses an option that goes to another menu screen the exact same exept it says 3 seconds left, then it goes to 2, then 1 ... 
+</dd></blockquote>
+
+
+<p><font size="4">STEP 5, Errorlevels</font>
+</p><blockquote>
+<dd>Errorlevels and the choice command make your menu work, they are its heart and lungs.  Anyway, to make the menu you need to use errorlevels.  Every program returns an exit code to MS-DOS while it is exiting, that code is called an errorlevel.  The choice command returns the <b>place of the option you choose</b> relative to the other options as an exit code or errorlevel.  If you chose option 3 and it was in the 3rd position, the errorlevel would be 3.  The character doesn't matter, it could be an X or an asterisk.  All that matters is it's place.  Right after the choice line type <xmp>IF ERRORLEVEL XX GOTO ZZZ</xmp>  Leave it there for now, it can be a model.  Let's say you have 10 options in your choice command.  The first errorlevel will be 10, you will replace the xx with 10.  If option 10 represents windows, you could replace the zzz with win or windows.  Anything you like.  The errorlevels must go in descending order, from the highest to the lowest.  The second errorlevel will be 9, so replace XX with 9.  Let's say option 9 is Warcraft, then you can replace zzz with war 2 or warcraft or jumpin joe if you want.  It goes on and on, but it must be in that order, the first option on your menu will be the last in the list of errorlevels.  Here is an example:<xmp> 
+choice:/c1234567UE!                                                 
+if errorlevel 10 goto edit                                          
+if errorlevel 9 goto exit                                           
+if errorlevel 8 goto menu2                                          
+if errorlevel 7 goto scurk                                          
+if errorlevel 6 goto dm                                             
+if errorlevel 5 goto war2                                           
+if errorlevel 4 goto sc2000                                         
+if errorlevel 3 goto wack                                           
+if errorlevel 2 goto offroad                                        
+if errorlevel 1 goto doom                                           
+</xmp>
+If you have two columns ignore the second one, you have to do the errorlevels for the first column first.  The option in your first column that goes to your second should have it's own errorlevel like the rest of them.  In this case it's menu2 that goes for the second column.
+</dd></blockquote>
+
+
+<p><font size="4">STEP 6, Goto here</font>
+</p><blockquote>
+<dd>In step 5 you defined a bunch of places to go if that option was chosen.  Now we have to create the places.  For the first one on the errorlevel list it would look like this:<xmp>
+:edit
+cd\
+cd dos
+edit c:\dos\menu.bat
+goto start
+</xmp>
+
+All it has to be is the command line for the program followed by goto start, remember we put a :start at the top, so it comes back to the menu after.  These don't have to be in any particular order. For the option that exits it can be like this <xmp>:exit
+cls  
+cd\
+cls
+</xmp>
+</dd></blockquote>
+<p><font size="4">STEP 7, That Other Column</font>
+</p><blockquote><dd> So you included your second column or other screens in the list at the top of your batch file?  In the list of errorlevels you defined an option that went to th second column or screen, above it is menu2.  At :menu2 you begin just like at step 4.  You put in the choice of options for the options in the second column.  Then you define the errorlevels for the options in the second menu.  Next you put in the command lines.  Then you are done.  In the menu at the very top it is set up kind like file manager, you can see to get to Duke 3D, you first have to go to the games, then duke 3d and then choose play.to go to games i would have chosen 2, and it would bring me to another menu in the file, and then i would choose B for duke and so on.
+</dd></blockquote>
+<p><font size="4">STEP 8, DONE!</font>
+</p><blockquote><dd>That  should do it.  Save it as menu.bat or something.bat and run it.  You may want to add it to your autoexec.bat file so it loads up every time you boot.  That's what I did.  If it doesn't and you <a href="http://http-server.carleton.ca/~dmcfet/files/menu.zip">downloaded</a> my menu and it worked, then you did something wrong.  You may want to send me a copy of your menu and I can take a look at it, or just look at a working model and see how your's differs.</dd></blockquote>
+<table width="100%"><tbody><tr><td><a href="mailto:craig@ottawa.com">Questions, Comment?...</a></td><td><a href="http://www.carleton.ca/~dmcfet/">My Home</a></td></tr></tbody></table>
+
+</dd></body></html>
