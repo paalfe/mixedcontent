@@ -1,0 +1,783 @@
+   ______________               _________        ______ _____         _____
+   ___  __/___  /_ _____        __  ____/        ___  / ___(_)__________  /_
+   __  /   __  __ \_  _ \       _  / __  _______ __  /  __  / __  ___/_  __/
+   _  /    _  / / //  __/       / /_/ /  ______/ _  /____  /  _(__  ) / /_
+   /_/     /_/ /_/ \___/        \____/           /_____//_/   /____/  \__/
+
+
+		         Author:  Marc Y. Paulin
+
+     You will find me as J-Mark.  Feel free to hail me if I'm elsewhere
+    than #GUS.   I also have PowWow active everytime I'm on-line.  Check
+                      me out at markus@nbnet.nb.ca.
+
+			Date revised: 02-03-96
+
+   You can find this list posted regularly on comp.sys.ibm.pc.soundcard.games,
+                  BBS that support the Gravis UltraSound
+            and on the GUS internet sites in \submit\glist.zip.
+      I also had reports that it is also on the Advanced Gravis Web site.
+
+==============================================================================
+			       CONTENTS
+==============================================================================
+
+1.0  COMMENTS FROM THE AUTHOR
+2.0  THE EMULATORS - WHERE TO GET THEM
+3.0  NEWS AND UPDATES
+4.0  SOFTWARE COMPATIBILITY LIST
+5.0  THE "NOT-WORKING" LIST
+6.0  SUBMISSIONS
+
+==============================================================================
+1.0                     COMMENTS FROM THE AUTHOR
+==============================================================================
+
+     On this list, you'll find...
+
+Games supporting the GUS natively:		156
+Games not supporting the GUS, but work fine:	267
+Games that just won't work at all:		4
+
+     And for the total number of submission since my last post...
+
+Games supporting the GUS natively:		9
+Games not supporting the GUS, but work fine:	2
+Games that just won't work at all:		0
+
+
+02-03-96
+
+     Sorry for the big gap between the last release.  The company I was
+working for was having serious financial difficulties and had to do some
+lay offs.  My energies were spent to find a new job (which happened two
+weeks ago) and to move to a new city.
+
+     For Sierra gamers experiencing sound cutting in Phantasmagoria, I'd
+like you to try the trick mentioned on the list for Space Quest 6 and tell
+me if it works for Phantasmagoria too.  If that trick works for other
+Sierra games too, please do tell!
+
+     For those who don't know, the G-List is still available by email
+request.  Just send me an email at markus@nbnet.nb.ca with
+"REQUEST G-LIST" in the subject line.  The next time I connect, the 
+G-List will be sent to you automatically.  But if you wish to write to
+me, use a different subject line because those emails are deleted after
+processing.
+
+     The GUS main FTP site has moved from archive.epas.utoronto.ca to
+ftp.orst.edu.
+     The GUS drivers for Win95 are out!  The filename is GF195V11.ZIP and
+can be found on most, if not all, GUS sites.  But the Gravis sites has them
+for sure. ;-)
+
+05-21-95
+
+     This list was created to help GUS users make games work with this
+wonderful soundcard from heaven.  It combines SBOS, MegaEM and UltraMID.     
+It also contains a list of GUS supporting demos and programs that whatever
+you do, won't work with the GUS, and therefor are the stuff to stay away from
+for now.
+
+     Everything listed mostly comes from other GUSers on the Internet and
+and online services.  Not everything on this list reflects my own experiences,
+also I have put a good bit of stuff in there from my experiences.  If you 
+want to add anything, make suggestions, report an error, etc, feel free
+to email me at markus@nbnet.nb.ca or chat with me on IRC.  I'm very
+friendly (most of the time <grin> :D)
+
+     Although this list is mostly made of games, any other PC compatible
+software that uses the GUS is welcomed.
+
+     Please, do not flame me for the mistakes I made on the text.  I am doing
+my best to bring something to the GUS world.  If you see bad-spellings or
+errors just let me know and I'll correct them. :)
+
+=============================================================================
+2.0                     THE EMULATORS:  WHERE TO GET THEM
+=============================================================================
+     
+     I'm using the word "emulator" to talk about SBOS, MegaEM, and UltraMID
+although UltraMID is not considered an emulator by many people and MegaEM
+is a half-emulator.
+
+     All files can be found on the Gravis UltraSound FTP sites and the
+mirrors of those sites.
+
+The Gravis UltraSound Mailing Lists
+-----------------------------------
+
+Daily Digest
+
+Subscribe/Unsubscribe:  gus-general-request@apollo.cosc.gov
+To Post:                gus-general@apollo.cosc.gov
+To email a human:       gus-general-owner@apollo.cosc.gov
+
+Musicians Digest
+
+Replace "general" above with "music"
+
+Programmers Digest
+
+Replace "general" above with "sdk"
+
+		     
+FTP Sites      
+---------
+
+Advanced Gravis:        ftp.gravis.com               pc/ultrasound
+
+Main N.America Site:    ftp.orst.edu                 pub/pckages/gravis
+  (all new submissions are uploaded to that site.)
+			wuarchive.wustl.edu          systems/ibmpc/ultrasound
+Main Asian Site:        nctuccca.edu.tw              PC/ultrasound
+Main European Site:     src.doc.ic.ac.uk             packages/ultrasound
+Main Australian Sites:  ftp.st.nepean.uws.edu        /pub/ultrasound
+			ftp.mpx.com.au               /ultrasound/general
+						     /ultrasound/submit
+Submissions:            ftp.orst.edu                 pub/packages/gravis/submit
+Mirrors:                garbo.uwasa.fi               mirror/ultrasound
+		       
+Gopher
+------
+
+Main Site:              src.doc.ic.ac.uk             packages/ultrasound
+
+WWW Page
+--------
+
+Advanced Gravis:         http://www.gravis.com
+
+Main North America Site: http://www.xmission.com/~grue/gus.html
+Main European Site:      http://src.doc.ic.ac.uk/packages/ultrasound/
+Main Australian Site:    http://ftp.mpx.com.au/archive/ultrasound/general/
+		  	 http://ftp.mpx.com.au/archive/ultrasound/submit/
+		         http://ftp.mpx.com.au/gravis.html
+
+MainServer for Archive Access  Email  <mail-server@nike.rz.uni-konstanz.de>
+				      <ftpmail@doc.ic.ac.uk>
+
+New Files on EPAS
+Mailing List            <majordomo@wotan.rz.uni-konstanz.de>
+(someone might wanna change its name...)
+
+FTP Mail Server:     mail-server@nike.rz.uni-konstanz.de
+
+   
+   MegaEM 3.06        MEGEM306.ZIP
+This is the protected mode MegaEM and it is still in beta phase.
+Furthermore, the protected mode support works only for GUS with
+revision numbers of 3.0 or higher, all GUS Max and ACE.
+If you still want the old MegaEM, you'll find the latest in the
+GUS 4.11 pack on gravis/patch/gus411.zip.
+   MAXSBOS            gravis/util/
+   SBOS 3.8b2         GUS0039.ZIP
+   SBOS 1.20          gravis/patch/sbos120.zip (on GUS mirror sites)
+(Although 3.8b2 is a newer version, v1.2 was report to have better)
+(Sound Blaster DAC emulation in some games)
+   UltraMID 1.08      GUS0040.ZIP
+(NOTE:  SBOS, UltraMID, and MegaEm are also in gus0041.zip)
+   32bit AIL          GAIL3214.ZIP
+   Windows 95 drivers GF195V11.ZIP
+Sierra 16bit Drivers  GUSDRV.EXE
+Sierra 32bit Drivers  GUS32.EXE 
+
+==============================================================================
+3.0                             NEWS AND UPDATES
+==============================================================================
+Last post was on:  12/12/95
+
+The Latest version of the Gravis UltraSound software is 4.11.
+
+The Latest version of the Gravis UltraSound OS/2 Drivers is 1.04.
+
+***These games have been updated on the list
+
+Strike Commander - Updated the native support trick.  Forgot some points.
+
+***These games have been added to the list
+
+CivNet from Microprose - Windows
+Championship Manager 2 from Domark - Native
+FX Fighter from ?? - Native
+Bioforge from Origin (?) - Use Ultima 8 drivers (MIDI only)
+Star Controll 1 from Accolade - MegaEM (using -mt)
+Wing Commander IV from Origin - Native
+FIFA Soccer '96 from EA Sports - Native
+Rebel Assault ][ from Lucas Art - Native
+Command & Conquer from Westwood - Native
+Space Quest VI from Sierra On-Line - Windows
+Duke Nukem 3D from 3D Reamls - Native
+
+==============================================================================
+4.0                    SOFTWARE COMPATIBILITY LIST
+==============================================================================
+
+     This is a list of currently releases software and the suggest emulator
+for the best music/playability combination.  This list is based majorly
+on suggestions I recieve via email, and only reflects some of my own
+experience.  This list is kept alive to help users in what is the best
+specific program and to let them know that specific games worked for others.
+
+     If you know a product that works with an existing GUS emulator or
+has native GUS support, and is not shown on this list, you are kindly invited 
+to submit it to me.  Or if a program sounds better under a new emulator
+please share your thoughts and experience on this list.
+
+     With some titles, you will see a comment on what you will have to do
+first to make the program work with the emulator, suggested switch to make     
+the software sound better with the emulator, or if the project will only
+give you half of the emulation (i.e. MegaEm gives music only).
+(D)  Digital effects only, no music
+(M)  Music only, not digital effects
+
+			 Native GUS Support
+------------------------------------------------------------------------------
+GAME TITLE                   COMPANY              TYPE        FILE NEEDED
+------------------------------------------------------------------------------
+Ace Of The Deep              Sierra On-Line       Native
+  (There are problems that Sierra is looking into at the moment.
+   The autodetect sequence is half-working.  IRQ and DMA are not
+   always set right and so is the address and the copied digital
+   driver.  Great!  This can be text edited, but with the assitance
+   of Sierra tech support.  Should be fixed soon.)
+Air Warrior 1.16B            Kesmai Corp.         32-bit AIL
+Alkadim, The Genie's Curse   SSI                  Native
+America Adventure            Knowledge Adventure  Native
+Animated Money               Flix Productions     Native
+Archon Ultra                 FreeFall Assoc./SSI  Native
+Armored Fist                 NovaLogic            Native
+Ascendancy                   The Logic Factory    Native
+Battle Isle 3                BlueByte             Windows
+Black Thorne                 Interplay            Native
+Body Adventure               Knowledge Adventure  Native
+Bret Hull Hockey 95          Accolade             Native
+Brutal: Paws Of Fury         Gametek              Native
+Bugs                         Knowledge Adventure  Native
+Bureau 13                    Take 2               Native
+Buried In Time
+  (JourneyMan Project ][)    ??                   Windows
+Championship Manager 2       ??                   Native
+Chess Master 4000            Software Toolworks   Native
+Chuck Yeager's Air Combat    Electronic Arts      Native
+      Special GUS Edition
+CivNet                       Microprose           Windows
+Command & Conquer            Westwood             Native
+Cyberwar                     SCI                  Native
+Cyclones                     Raven Software       Native
+Dare to Dream                Epic                 Native
+Dark Forces                  Lucas Arts           Native
+Darker                       Psygnosis            Native
+DarkSun                      SSI                  Native
+Delta V                      Bethesda Softworks   Native
+Descent                      Interplay            Native
+Destruction Derby            Psygnosis            Native
+Dinosaur Adventure II        Knowledge Adventure  Native
+Diggers                      Millenium Media Grp. Native
+Discworld                    Psygnosis            Native
+DOOM                         ID Software          Native
+DOOM II:  Hell on Earth      ID Software          Native
+Dr. Drago's Madcape Chase    BlueByte             Windows
+Duke Nukem 3D                3D Realms            Native
+EcoQuest II:  Rainforest     Sierra Online        Sierra 16-bit
+Elder Scrolls:  The Arena    Bethesda Softworks   Native
+Empire Delux                 New World Computing  Native
+Epic Pinball                 Epic Megagames       Native
+Ecstatica                    Psygnosis            Native
+Fantasy Empires              Sierra Online        32-bit AIL
+FIFA Soccer                  EA Sports            Native
+  (Needs FIFA_WBT.ZIP patch. Do not confuse with the '96 version)
+FIFA Soccer '96              EA Sports            Native
+Flight Unlimited             Looking Glass Tech.  Native
+Freddi Fish                  Humongous Entertain. Windows
+   Need GUS0048.ZIP from GUS site.
+Freddy Pharkas               Sierra Online        Sierra 16-bit
+Full Throttle                Lucas Arts           Native
+FX Fighter                   ??                   Native
+Gabriel Knight               Sierra Online        Sierra 32-bit
+G.O.R.G                      Microforum           Native
+Guilty                       Psygnosis            Native
+Heretic                      Raven Software       Native
+Hexen (Heretic ][)           Raven Software       Native
+Hexx                         Psygnosis            Native
+Hi-Octane                    Bullfrog             Native
+Hired Guns                   Psygnosis            Native (3D Sound)
+Hocus Pocus                  Apogee               Native
+Hokrum KA-50 (Werewolf)      Virgin               Native
+Horde, The                   Crystal Dynamics     Native
+IndyCar Racing               Papyrus              32-bit AIL
+Inherit The Earth            New World Computing  Native
+Iron Cross                   New World Computing  Native
+Island of Dr. Brain          Sierra Online        Sierra 16-bit
+Jack the Ripper              Mirage               Native
+Jagged Alliance              Sir-Tech             Native
+Jammit                       GTE Interactive Med. Native
+  (run "config" and select "other music devices".)
+Jazz JackRabbit              Epic MegaGames       Native
+Jetstrike                    Rasputin             Native
+Johnny Quest                 HollyWood Entertain. Native
+Journeyman Project           Presto Studio        Windows
+ (reported not to work well with Notron Desktop 4 Win, PC Tools 4 Win,)
+ (DoubleSpace, Stacker, QEMM, and AIT, STB or Orchard Video Cards.....)
+Kasparov's Gambit            Electronic Arts      Native
+Kid Zoo (disk/CD)            Knowledge Adventure  Native
+King Pin                     Team 17              Native
+Kings Quest V (Disk)         Sierra Online        Sierra 16-bit
+Kings Quest VI               Sierra Online        Sierra 16-bit
+Kings QUest VII              Sierra Online        Windows
+Leisure Suit Larry VI        Sierra Online        Native
+   (Run GUSDRV to uncompress drivers.  Run ULTRAMID and then select)
+   (Gravis UltraSound in the INSTALL program)
+Lemmings 3D                  DMA Desing/Psygnosis Native
+Lion King, The               Disney Software      Native
+LineWars II                  Patrick Aallo (SW)   Native
+Little Big League            Adeline Soft. Intl.  Native
+LodeRunner                   Sierra Online        Native
+Malcolm's Revenge            Westwood/Virgin      Native
+Mega Man X                   Capcom Co. LTD       Native
+Microcosm                    Psygnosis            Native
+Mortal Kombat 3              ??                   Native
+Nascar                       Papyrus              Native
+NBA Live '95                 EA Sports            Native
+NCAA Basketball ][           Bethesda Softworks   Native
+  (IRQ must be 7 or lower.  DMA must be 0, 1 or 2.)
+Need For Speed               Electronic Arts      Native
+Networks/A4                  Infogrames           Native
+Nick Faldo's Champ. Golf     Grandslam            Native
+NHL Hockey '95 (CD-ROM)      EA Sports            Native
+NHL Hockey '96               EA Sports            Native
+One Must Fall 2097           Epic MegaGames       Native
+Orion Conspiracy             Domark               Native
+Outer Ridge                  Graphic Wares        Native
+Overdrive                    Team 17              Native
+Pinball Fantasies            Digital Illusions    Native
+Pinball Fantasies Deluxe     21st Century Entrtn. Native
+Police Quest IV              Sierra Online        Sierra 32-bit
+Prisoner Of ICE              Infogrames           Native
+Psycho Pinball               Codemasters          Native
+Pyrotechnica                 Psygnosis            Native
+Quarantine                   Gametek              Native
+Quest for Glory III          Sierra Online        Sierra 16-bit
+Quest for Glory IV           Sierra Online        Sierra 32-bit
+Rally Championship           Flair                Native
+Raptor                       Apogee/Cygnus        Native
+RavenLoft                    SSI                  32-bit AIL
+RavenLoft 2 : Stone Prophet  SSI                  32-bit AIL
+  (The AIL drivers are included.  Just use the normal
+   "copy over drivers" method to use them)
+Rebel Assault (CD)           Lucas Arts           Native
+Rebel Assault ][             Lucas Arts           Native
+Renegade: Battle For
+ Jacob's Star                SSI                  Native
+  Make sure to run LOADPATS before goin into the game.
+Return to Zork               Infocom              Native
+  (To avoice "devide by zero" errors, answer "no" during)
+  (installion on do you wish to load the driver in upper memory.)
+Reunion                      Grandslam            Native
+Rise Of The Triad:
+ The Hunt Begins             Apogee               Native
+Rise Of The Triad
+ Dark War                    Apogee               Native
+Rollin                       M. Riedel            Native
+Savage Warriors              Mindscape            Native
+Science Adventure            Knowledge Adventure  Native
+Shadow Caster                Origin               32-bit AIL     PATSHAD32.ZIP
+SilverBall                   Epic Megagames       Native
+Sim City 2000                Maxis                32-bit AIL
+Simon The Sorcerer 2 (disk)  AdventureSoft        Native
+Space Federation             Interplay            Native
+Space Quest V                Sierra Online        Sierra 32-bit
+Space Quest VI               Sierra On-Line       Windows
+  (If sound skips, double the "dacSize" value in RESSOURCE.WIN)
+Speed                        Knowledge Adventure  Native
+SSN-21 Sea Wolf              Electronic Arts      Native
+Star Control II              Accolade             Native
+Star Trails                  Sir-Tech             Native
+Strike Commander             Origin               MegaEM or Native
+  Tactical Operations I
+  (Someone reported that native GUS drivers are hidden in the game for the
+   CDROM version only.  Edit the files SC.CFG and SCTO1.CFG.  Under the
+   line "+LB" or "-LB", the next two lines should look like this:
+   -mu    (specifies music through the Ultrasound)
+   -duXY  (specifies digital through the Ultrasound where X = GUS port
+           address in the form of 2x0 and Y = IRQ setting)
+   Now load Ultramid instead of MegaEM.)
+
+Super Frog                   Team 17              Native
+Super Jam                    BlueRibbon Sound Wks Native
+Super Street Fighter 2 Turbo Capcom Co. LTD       Native
+Serf City                    Blue Byte            32-bit AIL
+Syndicate                    Bullfrog Prod.       32-bit AIL
+TeenAgent                    Metropolis           Native
+TEKWAR                       ??                   Native
+Terminator Rampage           Bethesda Softworks   Native
+Tetrolis                     VectorMan            Native
+TFX (CD)                     Ocean                Native
+Thunder Zone                 ?                    Native
+Thunderscape                 SSI                  Native
+Tie Fighter                  Lucas Arts           Native (MegaEM Provided)
+Tower Assault                Team 17              Native
+Transport Tycoon             MicroProse           Native
+Tyrian 1.0                   Epic Megagames       Native
+Ultimate Doom                Id Software          Native
+Under A Killing Moon         Access/U.S. Gold     Native
+Undersea Adventure           Knowledge Adventure  Native
+U.S. Navy Fighters           Electronic Arts      Native (Digital)
+   Get GUS patch from GUS archive.  Filename: USNFGUS.ZIP
+War Craft                    Blizzard Enter.      Native (AIL)
+Wing Commander ]I[           Origin Systems       Native
+Wing Commander IV            Origin Systems       Native
+X-COM: UFO Defense           MicroProse           Native
+Zone 66                      Epic Megagames       Native
+
+
+							      (M)  EXTRA FILE
+GAME TITLE                   COMPANY/AUTHOR          EMULATOR (D)  NEEDED
+-----------------------------------------------------------------------------
+1942                         MicroProse              MegaEM   (M)
+7th Guest, The               Virgin/Trilobytes       UltraMID
+Aces Over Europe             Dynamix                 SBOS  
+Aces Over Pacific            Dynamix                 SBOS
+Alien Breed                  Team 17                 MegaEM  
+ (Run SBCOMP.EXE before the game to avoice lock-ups)
+Alone in the Dark II         ?                       SBOS
+Altered Destiny              Accolade                MegaEM  
+Amazon: Guardians of Eden    Access                  MegaEM
+Animal Quest                 Alive Software          UltraMID
+Armaeth                      Les Editions du Dolmen  MegaEM   
+ (MEGAEM -SBOFF .. you can't use SB emulation)
+ATC/Tracon                   Wesson International    UltraMID (D)
+Battle Chess 4000            Interplay               UltraMID  
+Battle Cruiser 3000AD        Three-Sixty Pacific     UltraMID (D)
+Battle Isle ][               Blue Byte               UltraMID
+Betrayal at Krondor          Dynamix                 MegaEM  
+Beyond Shadowgate            ICOM Simulations        UltraMID  
+Big Red Adventure            ???                     SBOS
+Bilou                        Concepteva              UltraMID (D)
+Bioforge                     Origin                  U8Drivers(M)  U8GUS.ZIP
+  (same drivers used for Ultima 8)
+Bloodnet                     Microprose              MegaEM  
+BodyLink                     Stragem                 UltraMID (D)
+Body Blows                   Team 17                 SBOS
+Break Free                   Software Storm          SBOS
+Brutal Sports Series FB      Millenium Software      SBOS  
+Bubble Bobble                Taito                   SBOS
+Buzz Aldrin's Race To Space  Interplay               UltraMID  
+Campain ][                   Empire                  MegaEM   (M) or (D)
+Cannon Fodder                Sensible Software       MegaEM
+Carrier Strike               SSI                     UltraMID  
+Castle Of Dr. Brain          Sierra On-Line          MegaEM  
+Chess Maniac 5,000,001       Spectrum Holobyte       UltraMID  
+Chess Master 3000            Software Toolworks      UltraMID (D)
+Chuck Yeager's Air Combat    Electronic Arts         SBOS  
+  original retail version  
+Civilization                 Microprose              MegaEM  
+Clouds Of Xeen               New World Computing     MegaEM  
+Coaster                      Disney Software         SBOS  
+Codename Iceman              Sierra On-Line          MegaEM
+Colonization                 MicroProse              MegaEM
+Commanche Maximum Overkill   NovaLogic               SBOS  
+Command Adventure:Starship   Merit Software          UltraMID  
+Commander Keen 4             Id Software             SBOS  
+Contraption Zack             Presage Software Co.    UltraMID 
+Creepers                     Destiny Software        UltraMID 
+Cribbage Master              Ninga                   UltraMID (D)
+Cruise for a Corpse          Delphin                 MegaEM
+Cyberia                      ??                      MegaEM
+   Run Cyberia with -m.  Need feedback on this...
+CyberRace                    CyberDreams             SBOS  
+CyberStrike                  Simutronics             UltraMID (D)
+Dark Half, The               Capstone                UltraMID
+Dark Legions                 SSI                     UltraMID
+Dark Queen of Krynn, The     SSI                     MegaEM
+Darkside of Xeen             New World Computing     MegaEM  
+Day Of The Tentacle          Lucas Arts              MegaEM
+Deathbringer                 Empire                  MegaEM
+Dinosaur Adventure           Knowledge Adventure     UltraMID (D)
+Discoveries In The Deep      ???                     MegaEM 
+DNA Parrot                   T&T Research            UltraMID (D)
+Dracula Unleashed            Viacom                  MegaEM   (M)
+Dune                         Virgin/Cryo             MegaEM   (M)
+Dune ][                      Westwood/Virgin         MegaEM       DUNE2GUS.ZIP
+  (For GUSMAX users, MAXSBOS is recommended for better digital FX).
+Dungeon Hack                 SSI/Dreamforge          MegaEM  
+ (Run MegaEM with /RIRQ2 _before_ selecting the sound to run the game)
+Dysney's Aladdin             Disney Software(Virgin) SBOS
+Earl Weaver Baseball ][      ???                     MegaEM   (M)
+EcoQuest                     Sierra On-Line          MegaEM
+Entity                       Loriciel                SBOS  
+Eye Of The Beholder III      SSI                     MegaEM
+F-14 Fleet Defense           Microprose              MegaEM
+F-15 Strike Eagle            Microprose              MegaEM  
+Falcon 3.0                   Spectrum Holobyte       SBOS  
+FlashBack                    SSI Inc.                MegaEM  
+Flight Simulator IV          Microsoft               MegaEM  
+Flight Simulator V           Microsoft               SBOS  
+Flight Simulator 5.1 CD      Microsoft               SBOS
+Front Page Sport: Baseball94 Dynamix                 MegaEM   (M) or (D)
+Front Page Sport: Football94 Dynamix                 MegaEM   (M) or (D)
+Front Page Sport: Football95 Dynamix                 MegaEM   (M) or (D)
+Frontier: Elite 2            Gametek/Konami          MegaEM 
+FunBall                      Impulse Games           SBOS
+Fun Univ Ntwk Intfc          Fun Univ Ntwk           UltraMID  
+Gateway To The Savage Frontier  SSI                  SBOS
+GateWorld Triology           Home Brew Software      UltraMID (M)
+GemStone ]I[                 Simutronics             UltraMID (D)
+Genesia                      Microids                SBOS
+Global Domination            Impressions             UltraMID  
+Gobliiins II                 Cocktail Vision         SBOS  
+Gobliiins ]I[                Cocktail Vision         SBOS  
+Gods                         Bitmap Brothers         MegaEM  
+Grand Prix Unlimted          Accolade                MegaEM
+Grandmaster Chess            IntraCorp               UltraMID  
+Great Naval Battles          SSI                     UltraMID  
+GunShip 2000                 MicroProse              SBOS
+Guzzle Puzzles               Redwood Games           UltraMID (D)
+Halloween Harry              Apogee/Sub Zero         MegaEM  
+Hand Of Fate                 Westwood                MegaEM  
+Hardball III                 Accolade                MegaEM  
+Harpoon v1.2                 Three-Sixty Pacific     SBOS  
+High Command                 Three-Sixty Pacific     SBOS  
+Home Alone                   Capstone                MegaEM
+Hong Kong Mahjong Pro        Nine Dragons Software   UltraMID  
+Incredible Machine           Sierra On-Line          MegaEM
+Incredible Machine ][        Sierra On-Line          MegaEM
+Incredible Toons             Sierra On-Line          MegaEM  
+Indiana Jones (Fate of Atl.) Lucas Arts              MegaEM   
+Inspector Gadget             Azeroth Publishing      UltraMID  
+Ishar ][                     Silmarils               SBOS  
+Jim Power                    Loriciel                SBOS  
+Jordan In Flight             Electronic Arts         MegaEM  
+Jurassic Park                Ocean                   MegaEM  
+Keef The Thief               Electronic Arts         MegaEM  
+KidDesk                      Edmark Corporation      UltraMID (D)
+KidPix                       Broderbund              SBOS -o1 
+King Maker                   V.S. Gold               MegaEM   (M)
+King's Quest II              Sierra On-Line          MegaEM
+King's Quest IV              Sierra On-Line          MegaEM
+King's Quest V (CD-ROM)      Sierra On-Line          MegaEM
+Krypton Egg                  Alexandre Krat          MegaEM
+Lands Of Lore                Westwood Studios        MegaEM       LOLSOUND.ZIP
+Laura Bow I                  Sierra On-Line          MegaEM
+Laura Bow ][ (Amon Ra)       Sierra On-Line          MegaEM  
+Layout For DOS               Objects Inc.            UltraMID  
+Legend Of Kyrandia           Westwood Studios        MegaEM   (M)
+ (Better result if sound is disabled, not applicable for CD-ROM version)
+Legend Of Kyrandia ][        Westwood Studios        MegaEM
+Leisure Suit Larry I (VGA)   Sierra On-Line          MegaEM  
+Leisure Suit Larry V         Sierra On-Line          MegaEM  
+ (You might need -fast switch with EMUSET)
+Lemmings                     Psygnosis               SBOS  
+Links 386 Pro                Access Software         SBOS  
+ (Use switch -x2 and run links with -s switch)
+Litil Divil                  Gremlin Graphics        MegaEM
+Lost Vikings, The            Interplay               MegaEM   (M)
+Magic Carpet                 Bullfrog                MegaEM
+Magic Crayon                 Alive Software          UltraMID  
+Man Enough(The Ultimate
+           Social Adventure) Tsunami                 SBOS
+  (Use the -o4 -x3 parameters)
+Mario Teaches Typing         Interplay               UltraMID  
+Martian Memorandum           Access Software         MegaEM 
+Marvin The Moose             Milliken Publishing     UltraMID (D)
+Master Of Orion              Microprose              UltraMID     MOO_GUS.ZIP
+Math Sequences               Milliken Publishing     UltraMID (D)
+Math Zone                    Milliken Publishing     UltraMID (D)
+MechWarrior ][               Activision              UltraMID (D)
+Merchant Prince              QQP                     MegaEM  
+Mickey's 123's               Disney Software         MegaEM   (D)
+Mickey's ABC's               Disney Software         MegaEM   (D)
+Mickey's Colors & Shapes     Disney Software         MegaEM   (D)
+MicroLeague Baseball IV      MicroLeague SportsAs.   UltraMID
+MicroLeague Cards            MicroLeague SportsAs.   UltraMID (D)
+MicroLeague Football ][      MicroLeague SportsAs.   UltraMID
+Microsoft Dinosaur           Microsoft               Native in Windows
+Millie's Math House          Edmark Corporation      UltraMID (D)
+Milliken Story Teller        Milliken Publishing     UltraMID (D)
+Monkey Island II             Lucas Arts              MegaEM
+(Emuset -F22 MT reported to give better music)
+Monopoly Deluxe              Virgin Games            UltraMID  
+Mortal Kombat                Midway                  SBOS  
+Mutanoid Math Challenge      Legacy Software         UltraMID  
+Mutanoid Word Challenge      Legacy Software         UltraMID  
+My Paint                     Saddleback Graphics     UltraMID (D)
+Mystic Towers                Apogee                  SBOS
+NFL Challenge                XOR Corporation         UltraMID (D)
+NHL Hockey                   Electronic Arts         SBOS     (M)
+NHL Hockey '95 (disks)       Electronic Arts         UltraMID
+OilsWell                     Sierra On-Line          MegaEM  
+Operation Combat ][          Merit Software          SBOS     (D)
+Oregon Trail Deluxe          MECC                    UltraMID  
+Pickle Wars                  Redwood Games           UltraMID  
+Pinball Dreams               21st Cent.Entertainment MegaEM
+ (EMUSET -MT & you have to choose "SB 2.0" at start of the game)
+Pirates! GOLD Edition        MicroProse              SBOS
+Places To Play               Magnetic Images         UltraMID (D)
+Police Quest II              Sierra On-Line          MegaEM
+Ponctueur, Le                C.R.A.P.O. Inc          UltraMID (D)
+Pools Of Darkness            SSI                     UltraMID (D)
+Prehistorik ][               Titus                   MegaEM  
+Premier Manager ][           Gremlin                 MegaEM   (M)
+Prince OF Persia I (1.3)     Broderbund              MegaEM  
+Prince Of Persia II          Broderbund              MegaEM  
+ (Put your SB IRQ at 5 and run MegaEM with /SBI5 to have digital sound)
+Privateer                    Origin                  SBOS         AILPATCH.ZIP
+                                           or latest MegaEM
+Prophecy Of The Shadow       SSI                     MegaEM  
+Protostar                    Tsunami                 MegaEM
+PuttPutt Joins Parade        Humongous Entertainment UltraMID  
+Quest For Glory I (VGA)      Sierra On-Line          MegaEM
+Quest For Glory II           Sierra On-Line          MegaEM
+Ragarok (Valhalla)           Norsehelm Productions   UltraMID (D)
+Railroad Tycoon (Original)   Microprose              SBOS  
+Rampart                      Electronic Arts         MegaEM
+Realms Of Avarton            Kram                    UltraMID (D)
+Red Baron                    Dynamix                 SBOS
+(Select ADLIB in installion.  MegaEM is better music)
+(but of course, you get no sound effects)
+Red Crystal "The 7 secrets   QQP                     MegaEM
+	     of life"   (Load MegaEM _before_ configuration)
+Red Hell                     Castleworks Gameware    UltraMID
+Return of the Phantom        MicroProse              MegaEM
+Ring World                   Tsunami                 MegaEM  
+Rise of the Dragon           Dynamix                 MegaEM  
+Rise Of The Robots           Time Warner Interactive
+                             Mirage Technologies     SBOS
+Risky Woods                  Electronic Arts         MegaEM  
+Rocketeer                    Disney Software         MegaEM
+Romance Of The Three Kingdom III  KOEI               SBOS
+Rules Of Engagement ][       Bethesda Softworks      UltraMID  
+Sam And Max Hit The Road     Lucas Arts              MegaEM
+ (Use "Advanced Soundcard Install" to select soundcards)
+Seal Team                    Electronic Arts         UltraMID  
+Shadow President             DC True                 UltraMID (D)
+Sherlock Holmes (CD-ROM)     Icom                    MegaEM  
+Sights & Sounds              MacMillan/McGraw Hill   UltraMID (D)
+SimCity Classic              Maxis                   UltraMID  
+SimFarm                      Maxis                   MegaEM
+Simon The Sorcerer           Adventure Software      MegaEM   (M)
+Slater & Charlie             ???                     MegaEM 
+Soccer Kid                   Krisalis Software       SBOS
+Solitaire's Journey          Quantum Quality Prod.   UltraMID (M)
+Space Adventure              Knowledge Adventure     UltraMID (D)
+Space Chase I, ][, ]I[       Safari Software         UltraMID (M)
+Space Ho PC                  Prestage Software Co.   UltraMID  
+Space Hulk                   Electronic Arts         UltraMID (M)
+ (copy GF1MIDI.ADV over MIDI.ADV in \HULK\DRV_DIR and use SoundBlaster)
+Space Quest III              Sierra On-Line          MegaEM  
+Spectre VR                   Velocity                Windows
+Speed Racer                  Activision              SBOS  
+ (Use MSDOS 5.0 with EMM386)
+Spell Caster 2000            ???                     UltraMID  
+Spelljammer:  Pirates of ... SSI                     UltraMID
+StarControl 1                Accolade                MegaEM
+  (use the -mt switch)
+StarTrek: 25th Aniversary    Interplay               MegaEM  
+  (Works for disks and CDROM version. EMUSET -F22 -M14 -MT  recommended)
+StarTrek: Judgement Rites    Interplay               MegaEM  
+Stellar 7                    Dynamix                 MegaEM
+Stepping Stones Bonus        Compu-Teach Inc         UltraMID  
+Stickybear Townbuilder       Optimum Resource        UltraMID (D)
+Strong Hold                  SSI                     MegaEM  
+Stunt                        Spectrum Holobyte       SBOS  
+Stunt Island                 Disney                  MegaEM
+Super Speed                  Game Factory            SBOS
+Switch Progressions          Cooper, R.J. & Assoc.   UltraMID  
+Switch Quik                  Cooper, R.J. & Assoc.   UltraMID  
+Tankkk                       Jari Jaaskelainen       SBOS
+  (Native support soon)
+Teddy's Big Day              Interactive Software    UltraMID
+(Copy GF166.COM over SOUNDRV.COM and copy GF1MIDI.ADV over MIDIPAK.ADV)
+(This puts the MILES drivers from the GUS in the game, and you can now)
+(use UltraMID)
+Terminator 2029              Bethesda Softworks      UltraMID  
+Test Drive III               Accolade                MegaEM  
+The Chaos Engine             The Bitmap Brothers     SBOS
+Tom Landry Football          Merit Software          UltraMID  
+Tony Larussa Baseball ][     SSI                     UltraMID  
+Treehouse                    Broderbund              SBOS -o1
+Trump Castle ]I[             ???                     UltraMID 
+Two Towers, The              Interplay               UltraMID
+Ultima 6                     Origin                  MegaEM
+Ultima 7                     Origin                  SBOS           U7GUS.ZIP
+Ultima 8 : Pagan             Origin                  U8 Drivers (M) U8GUS.ZIP
+Ultima Underworld I          Origin                  UltraMID  
+Ultima Underworld II         Origin                  UltraMID
+Unnecessary Roughness        Accolade                SBOS  
+Veil Of Darkness             SSI                     MegaEM  
+VGA Jigsaw                   Alive Software          UltraMID (D)
+VGA Mah Jongg 3.1            Ron Balewski (shareware)MegaEM 
+ (Command line MJVGA R for Roland MT-32 Music)
+Virtual Pool                 Interplay               MaxSBOS
+ (The strangest thing about that game is that it supports the
+  GUS natively only for the intro and movies, not the game)
+Warlords II                  SSG                     UltraMID  
+Waterford Mental Math        Waterford Institute     UltraMID  
+Wayne Gretszky Hockey ]I[    Bethesda Softworks      UltraMID
+Wheel Of Fortune             Gametek                 UltraMID   
+When Two Worlds War          Impressives Software    MegaEM  
+Where in the World is ...    Broderbund              MegaEM
+Wing Commander               Origin                  SBOS
+ (MegaEM music is better, but no SFX)
+Wing Commander ][            Origin                  MegaEM  
+ (Load MegaEM before running INSTALL from floppy)
+Wing Commander Armada        Origin                  MegaEM
+Winter Challenge             Accolade                MegaEM  
+Winter Olympiade 94: Lillhammer   U.S. Gold          MegaEM
+Wizard                       Psygnosis               SBOS  
+Wizardy 7                    Sir-Tech                MegaEM
+World Atlas                  The Software Toolworks  UltraMID
+World Circuit                World Circuit           SBOS  
+ (MegaEM does better music, but you lose engine noise)
+World of Xeen (CD)           New World Computing     MegaEM  
+X-Wing Fighter               Lucas Arts              MegaEM
+ (To remove pauses, do not use QEMM in stealth mode.  Recommended..)
+ (to use EMM386.EXE from MSDOS 5.0 or the one provided with Windows)
+Xargon 1: Beyond Reality     Epic Megagames          SBOS
+Zeppelin                     Ikarion Software        SBOS
+
+
+==============================================================================
+5.0                    THE "NOT WORKING" LIST
+==============================================================================
+
+     You have tried everything, it just doesn't work.  SBOS, MegaEM, UltraMID,
+you name it.  None of them work.  This is the place to put those "stay away"
+programs to warn GUS users about them.
+
+TITLE                                     COMPANY
+------------------------------------------------------------------------------
+Atomic Energy (DEMO)                      Omicron
+Sam & Max CD                              Lucas Arts
+   The disk version does work with MegaEM, though.  Check the list above.
+Skunny Kart - 3D Action Racing            Copysoft
+Retribution                               Gremlin Interactive Ltd.
+==============================================================================
+6.0                           HOW TO SUBMIT 
+==============================================================================
+
+     For any additions to the list, please give me the following information
+reguarding the program.
+
+---***GAME SUBMISSION***---
+TITLE:  Name of the game.
+COMPANY:  Who wrote (author of) the game?
+EMULATOR:  What emulator works best?
+EMULATOR VERSION:  ONLY if a specific version is necessary.
+SPECIAL PROCEDURES:  Only if necessary.  Use this field to tell the user if
+		     he/she will have special things to do before having the
+		     emulator to work with the program.  This involves the
+		     downloading of a patch, running the emulator before
+		     you setup the game, etc.
+
+------------------------------------------------------------------------------
+
+     A special thanks to all those who contributed to this list.  You are
+too many to be named, but you know who you are.  :)  Cheers!  This list could
+not be as big as it is without your support and suggestions.
+
+------------------------------------------------------------------------------
+
+                      Jurassic Mark (Marc Y. Paulin)
+             Where: markus@nbnet.nb.ca - Power to the GUS!!!
+                 "En l'honneur de mes amis Acadiens!!!"
