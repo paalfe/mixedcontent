@@ -1,8 +1,8 @@
 USAGE:
- dosbox -conf dosbox.conf -conf games/GAME.conf
+ dosbox -conf dosbox.conf -conf games/<FILENAME>.conf
 
 USAGE IF USING DOSBox SVN-Daum:
- dosbox -conf dosbox_svn-daum.conf -conf games/GAME.conf
+ dosbox -conf dosbox_svn-daum.conf -conf games/<FILENAME>.conf
 
 
 ------------------------------------------------------------------------------------
@@ -12,7 +12,7 @@ use unzip to extract them.
 - https://apps.ubuntu.com/cat/applications/unzip/
 
 Example extracting a single gog.com Linux SH installer: 
- unzip FILE.sh -d FOLDER
+ unzip <FILENAME>.sh -d FOLDER
 
 Example extracting multiple gog.com Linux SH installers: 
  for file in `ls *.sh`; do unzip $file -d `echo $file | cut -d . -f 1`; done
@@ -25,7 +25,7 @@ use innoextract to extract them.
 - https://apps.ubuntu.com/cat/applications/innoextract/
 
 Example extracting a single gog.com Windows EXE installer: 
- innoextract FILE.exe -d FOLDER
+ innoextract <FILENAME>.exe -d FOLDER
 
 Example extracting multiple gog.com Windows EXE installers: 
  for file in `ls *.exe`; do innoextract $file -d `echo $file | cut -d . -f 1`; done
@@ -38,7 +38,7 @@ use 7z (p7zip-full) to extract them.
 - https://apps.ubuntu.com/cat/applications/p7zip-full/
 
 Example extracting a single gog.com MAC DMG installer: 
- 7z x -o/tmp/ -y FILE.dmg && 7z x /tmp/4.hfs
+ 7z x -o/tmp/ -y <FILENAME>.dmg && 7z x /tmp/4.hfs
 
 Example extracting multiple gog.com MAC DMG installers: 
  for file in `ls *.dmg`; do 7z x -o/tmp/ -y $file && 7z x /tmp/4.hfs; done
