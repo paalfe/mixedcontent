@@ -1,4 +1,4 @@
-- USAGE:
+- USAGE.
 $ dosbox -conf dosbox.conf -conf games/GAME.conf
 
 - USAGE IF USING DOSBox SVN-Daum:
