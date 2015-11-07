@@ -38,10 +38,10 @@ use 7z (p7zip-full) to extract them.
 - https://apps.ubuntu.com/cat/applications/p7zip-full/
 
 Example extracting a single gog.com MAC DMG installer: 
- 7z x -o/tmp/ -y <FILENAME>.dmg && 7z x /tmp/4.hfs
+ 7z x -o/tmp/ -y <FILENAME>.dmg 4.hfs && 7z x -y /tmp/4.hfs
 
 Example extracting multiple gog.com MAC DMG installers: 
- for file in `ls *.dmg`; do 7z x -o/tmp/ -y $file && 7z x /tmp/4.hfs; done
+ for file in `ls *.dmg`; do 7z x -o/tmp/ -y $file 4.hfs && 7z x -y /tmp/4.hfs; done
 
 Alternatively you can convert the DMG to IMG using dmg2img and 
 then mount the IMG using gnome-disk-image-mounter (gnome-disk-utility). 
