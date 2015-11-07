@@ -2,5 +2,5 @@
 
 declare -r CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-  "${CURRENT_DIR}/DOSBox_SVN-Daum_20150125_missing-SDL_sound/runme32" "$@"
+  "${CURRENT_DIR}/DOSBox_SVN-Daum_20150125/runme32" "$@"
 
