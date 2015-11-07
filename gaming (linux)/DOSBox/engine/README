@@ -1,5 +1,6 @@
 IT IS RECOMMENDED TO USE THE 32-BIT VERSION OF DOSBOX.
-THE 64-BIT VERSION DO NOT SUPPORT DYNAMIC FPU CORE AND YOU MAY EXPERIENCE SLOWNESS!
+THE 64-BIT VERSION DO NOT SUPPORT DYNAMIC FPU CORE, YOU MAY EXPERIENCE SLOWNESS AND VERTICAL STRIPES!
+
 
 ---------------------------------------------------------------------------------------------------------
 - DOSBox (Ubuntu Repository)
@@ -9,24 +10,47 @@ https://apps.ubuntu.com/cat/applications/dosbox/
 
 sudo apt install dosbox:i386 ; 
 
+
 ---------------------------------------------------------------------------------------------------------
 - dosbox-daily (Launchpad PPA)
-Daily build of dosbox trunk with mt32 patch (roms for mt32 are asked for during install)
+Daily build of dosbox trunk with Roland MT-32 patch (roms for mt32 are asked for during install)
 https://launchpad.net/~i30817/+archive/ubuntu/dosbox-patched
 
 sudo add-apt-repository -y ppa:i30817/dosbox-patched ; 
 sudo apt update ; 
 sudo apt install dosbox:i386 ; 
+sudo /usr/share/mt32-rom-data/mt32rom-setup --set-roms "$HOME/roms/DOSBox/extras/Roland ROMs (MT32 and CM32L)" ; 
+
+
+mt32rom filenames MUST be UPPERCASE.
+
+MT32_CONTROL.ROM
+MT32_PCM.ROM
+
+CM32L_CONTROL.ROM
+CM32L_PCM.ROM
 
 
 ---------------------------------------------------------------------------------------------------------
-- DOSBox SVN-Daum (32-bit only)  <= <= <= <= *** RECOMMENDED, HAS THE MOST ENHANCEMENTS :D *** 
+- DOSBox SVN-Daum (32-bit only)  <= <= <= <= *** RECOMMENDED, HAS THE MOST ENHANCEMENTS (MT32, 3DFX) :D *** 
 This build is an enhanced SVN build which incorporates unofficial features and fixes that are not officially part of DOSBox.
-http://ykhwong.x-y.net/
+http://ykhwong.x-y.net/ (The pre-compiled version is build without SDL_sound, so mixed CUE files with ogg/mp3 won't work)
 http://cafe.daum.net/dosbox
 
 to fix "dosbox: error while loading shared libraries: libtbb.so.2: wrong ELF class: ELFCLASS64"
   sudo apt install libtbb2:i386
+
+libtbb2:i386 from your distros repository can be downloaded and extracted.
+  apt-get download libtbb2:i386
+
+libtbb2 can also be fetched from http://threadingbuildingblocks.org/
+  tbb44_20150728oss.tgz/lib/ia32/gcc4.4/libtbb.so.2
+  tbb44_20150728oss.tgz/lib/ia32/gcc4.4/libtbbmalloc.so.2
+  tbb44_20150728oss.tgz/lib/ia32/gcc4.4/libtbbmalloc_proxy.so.2
+
+Incompatible versions of the libtbb2 files will give you the error:
+  dosbox: /usr/lib/i386-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by libtbb.so.2)
+
 
 ---------------------------------------------------------------------------------------------------------
 - DOSBox-X (source)
