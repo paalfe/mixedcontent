@@ -1,8 +1,8 @@
 USAGE:
-- dosbox -conf dosbox.conf -conf games/GAME.conf
+- "dosbox -conf dosbox.conf -conf games/GAME.conf"
 
 USAGE IF USING DOSBox SVN-Daum:
-- dosbox -conf dosbox_svn-daum.conf -conf games/GAME.conf
+- "dosbox -conf dosbox_svn-daum.conf -conf games/GAME.conf"
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
@@ -11,10 +11,10 @@ gog.com Linux SH installers is usually created by Makeself combined with MojoSet
 - https://apps.ubuntu.com/cat/applications/unzip/
 
 Example extracting a single gog.com Linux SH installer: 
-- unzip FILE.sh -d FOLDER
+- "unzip FILE.sh -d FOLDER"
 
 Example extracting multiple gog.com Linux SH installers: 
-- for file in `ls *.sh`; do unzip $file -d `echo $file | cut -d . -f 1`; done
+- "for file in `ls *.sh`; do unzip $file -d `echo $file | cut -d . -f 1`; done"
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
