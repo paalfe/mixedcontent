@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -13,6 +13,6 @@ platform=pc
 gameid=drascula
 originalsaveload=false
 language=en
-path=~/roms/ScummVM/data/Drascula - The Vampire Strikes Back
+path=~/gaming/ScummVM/data/Drascula - The Vampire Strikes Back
 guioptions=sndNoMIDI lang_English
 

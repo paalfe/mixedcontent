@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Gobliins-II]
 description=Gobliins 2 CD (v1.000/DOS/English (US))
-path=~/roms/ScummVM/data/Goblins 2 - Gobliins
+path=~/gaming/ScummVM/data/Goblins 2 - Gobliins
 gameid=gob
 language=us
 platform=pc

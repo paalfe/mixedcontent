@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -12,7 +12,7 @@ description=Beneath a Steel Sky (v0.0368 cd)
 output_rate=44100
 talkspeed=60
 alt_intro=false
-path=~/roms/ScummVM/data/Beneath a Steel Sky (VGA-CD) - Enhanced Soundtrack - Roland MT-32 ROMs
+path=~/gaming/ScummVM/data/Beneath a Steel Sky (VGA-CD) - Enhanced Soundtrack - Roland MT-32 ROMs
 subtitles=false
 gameid=sky
 music_driver=mt32

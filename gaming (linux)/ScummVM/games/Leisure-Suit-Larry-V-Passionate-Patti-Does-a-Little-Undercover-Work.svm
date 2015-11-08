@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Leisure-Suit-Larry-V-Passionate-Patti-Does-a-Little-Undercover-Work]
 description=Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work (DOS/English)
-path=~/roms/ScummVM/data/Leisure Suit Larry 5 - Passionate Patty Does a Little Undercover Work (Floppy DOS)
+path=~/gaming/ScummVM/data/Leisure Suit Larry 5 - Passionate Patty Does a Little Undercover Work (Floppy DOS)
 gameid=sci
 language=en
 platform=pc

@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [King's-Quest-V-Absence-Makes-the-Heart-Go-Yonder-DOS]
 description=King's Quest V: Absence Makes the Heart Go Yonder (CD/DOS/English)
-path=~/roms/ScummVM/data/King's Quest 5 - Absence Makes the Heart go Yonder (CD DOS)
+path=~/gaming/ScummVM/data/King's Quest 5 - Absence Makes the Heart go Yonder (CD DOS)
 gameid=sci
 language=en
 platform=pc

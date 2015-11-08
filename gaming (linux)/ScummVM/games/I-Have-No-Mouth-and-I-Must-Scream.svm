@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [I-Have-No-Mouth-and-I-Must-Scream]
 description=I Have No Mouth and I Must Scream (DOS/English)
-path=~/roms/ScummVM/data/I Have No Mouth and I Must Scream (gog.com 2.0.0.3 vorbis3)
+path=~/gaming/ScummVM/data/I Have No Mouth and I Must Scream (gog.com 2.0.0.3 vorbis3)
 gameid=saga
 language=en
 platform=pc

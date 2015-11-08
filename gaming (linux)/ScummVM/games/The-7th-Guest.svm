@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -12,7 +12,7 @@ description=The 7th Guest (DOS/English)
 output_rate=44100
 talkspeed=60
 fast_movie_speed=false
-path=~/roms/ScummVM/data/The 7th Guest (CD DOS) - Enhanced Soundtrack
+path=~/gaming/ScummVM/data/The 7th Guest (CD DOS) - Enhanced Soundtrack
 subtitles=false
 gameid=groovie
 language=en

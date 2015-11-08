@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -11,7 +11,7 @@ aspect_ratio=true
 dimuse_tempo=10
 description=The Curse of Monkey Island (Windows/English)
 talkspeed=28
-path=~/roms/ScummVM/data/monkey3
+path=~/gaming/ScummVM/data/monkey3
 gameid=comi
 language=en
 platform=windows

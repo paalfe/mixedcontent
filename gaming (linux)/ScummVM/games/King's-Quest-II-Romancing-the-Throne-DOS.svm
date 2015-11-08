@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [King's-Quest-II-Romancing-the-Throne-DOS]
 description=King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25"/3.5"/DOS/English)
-path=~/roms/ScummVM/data/King's Quest 2 - Romancing the Throne (Floppy DOS)
+path=~/gaming/ScummVM/data/King's Quest 2 - Romancing the Throne (Floppy DOS)
 gameid=agi
 language=en
 platform=pc

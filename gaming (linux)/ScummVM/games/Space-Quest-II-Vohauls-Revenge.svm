@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Space-Quest-II-Vohauls-Revenge]
 description=Space Quest II: Vohaul's Revenge (2.0F 1989-01-05 3.5"/DOS/English)
-path=~/roms/ScummVM/data/Space Quest 2 - Vohaul's Revenge (Floppy DOS)
+path=~/gaming/ScummVM/data/Space Quest 2 - Vohaul's Revenge (Floppy DOS)
 gameid=agi
 language=en
 platform=pc

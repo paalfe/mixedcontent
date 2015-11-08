@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -9,6 +9,6 @@ aspect_ratio=true
 
 [Broken-Sword-The-Shadow-of-the-Templars]
 description=Broken Sword: The Shadow of the Templars
-path=~/roms/ScummVM/data/Broken Sword 1 - The Shadows of the Templars
+path=~/gaming/ScummVM/data/Broken Sword 1 - The Shadows of the Templars
 gameid=sword1
 guioptions=sndNoMIDI noAspect

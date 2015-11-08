@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -10,7 +10,7 @@ aspect_ratio=true
 [Loom-FMTOWNS]
 description=Loom (FM-TOWNS/English)
 talkspeed=57
-path=~/roms/ScummVM/data/Loom (FMTOWNS)
+path=~/gaming/ScummVM/data/Loom (FMTOWNS)
 gameid=loom
 language=en
 platform=fmtowns

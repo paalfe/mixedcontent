@@ -1,7 +1,7 @@
 [scummvm]
-savepath=~/roms/ScummVM/saves
-extrapath=~/roms/ScummVM/extras
-themepath=~/roms/ScummVM/themes
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
 gui_theme=scummmodern
 gfx_mode=opengl_linear
 fullscreen=true
@@ -10,7 +10,7 @@ aspect_ratio=true
 [Lure-of-the-Temptress]
 description=Lure of the Temptress (VGA/DOS/English)
 extra=VGA
-path=~/roms/ScummVM/data/Lure of the Temptress (Floppy DOS)
+path=~/gaming/ScummVM/data/Lure of the Temptress (Floppy DOS)
 gameid=lure
 language=en
 platform=pc
