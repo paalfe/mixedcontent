@@ -1,6 +1,3 @@
-# http://8bitdo.com/
-# http://libretro.com/forums/showthread.php?t=3649
-
 # Add the ID_INPUT_JOYSTICK attribute to the device so SDL picks up on it
 
 # 8Bitdo FC30 1P GamePad Bluetooth mode(START) mode(START+R)
