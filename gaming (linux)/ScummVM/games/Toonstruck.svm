@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Toonstruck]
 description=Toonstruck (DOS/English)
-path=~/gaming/ScummVM/data/Toonstruck (CD)
+path=~/gaming/ScummVM/data/Toonstruck (1996) (CD)
 gameid=toon
 language=en
 platform=pc

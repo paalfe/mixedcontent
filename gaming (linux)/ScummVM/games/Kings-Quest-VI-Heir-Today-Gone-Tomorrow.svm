@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[King's-Quest-VI-Heir-Today-Gone-Tomorrow-WIN]
+[Kings-Quest-VI-Heir-Today-Gone-Tomorrow]
 description=King's Quest VI: Heir Today, Gone Tomorrow (CD/Windows/English)
-path=~/gaming/ScummVM/data/King's Quest 6 - Heir Today, Gone Tomorrow (CD DOS, Windows)
+path=~/gaming/ScummVM/data/King's Quest VI - Heir Today, Gone Tomorrow (1992) (CD DOS, Windows)
 gameid=sci
 language=en
 platform=windows

@@ -7,12 +7,10 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Loom-VGACD]
-description=Loom (VGA/DOS/English)
-talkspeed=142
-path=~/gaming/ScummVM/data/Loom (VGA-CD)
-subtitles=false
-gameid=loom
+[Maniac-Mansion-1989]
+description=Maniac Mansion (V2/DOS/English)
+path=~/gaming/ScummVM/data/Maniac Mansion (1989) (Enhanced)
+gameid=maniac
 language=en
 platform=pc
-guioptions=sndNoSpeech sndNoMIDI lang_English
+guioptions=sndNoSpeech sndNoMIDI midiAdLib lang_English

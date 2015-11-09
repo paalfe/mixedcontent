@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Goblins-Quest-III]
 description=Goblins Quest 3 CD (v1.02/DOS/English)
-path=~/gaming/ScummVM/data/Goblins 3
+path=~/gaming/ScummVM/data/Goblins Quest III (1993) (Goblins III)
 gameid=gob
 language=en
 platform=pc

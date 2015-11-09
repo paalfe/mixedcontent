@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Broken-Sword-II-The-Smoking-Mirror]
+[Broken-Sword-II-The-Smoking-Mirror-1997]
 description=Broken Sword II: The Smoking Mirror
-path=~/gaming/ScummVM/data/Broken Sword 2 - The Smoking Mirror
+path=~/gaming/ScummVM/data/Broken Sword II - The Smoking Mirror (1997)
 gameid=sword2
 guioptions=sndNoMIDI noAspect
 

@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Police-Quest-In-Pursuit-of-the-Death-Angel-VGA-Remake]
-description=Police Quest: In Pursuit of the Death Angel (SCI/DOS/English)
-path=~/gaming/ScummVM/data/Police Quest 1 - In Pursuite of the Death Angel (Floppy DOS VGA REmake)
+[Space-Quest-The-Sarien-Encounter-1991]
+description=Space Quest I: The Sarien Encounter (SCI/DOS/English)
+path=~/gaming/ScummVM/data/Space Quest - The Sarien Encounter (1991) (Floppy DOS VGA Remake)
 gameid=sci
 language=en
 platform=pc

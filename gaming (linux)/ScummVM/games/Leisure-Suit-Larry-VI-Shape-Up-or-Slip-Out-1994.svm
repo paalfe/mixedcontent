@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Leisure-Suit-Larry-VI-Shape-Up-or-Slip-Out]
+[Leisure-Suit-Larry-VI-Shape-Up-or-Slip-Out-1994]
 description=Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/English)
-path=~/gaming/ScummVM/data/Leisure Suit Larry 6 - Shape Up or Slip Out (CD DOS)
+path=~/gaming/ScummVM/data/Leisure Suit Larry VI - Shape Up or Slip Out (1994) (CD DOS SVGA Talkie)
 gameid=sci
 language=en
 platform=pc

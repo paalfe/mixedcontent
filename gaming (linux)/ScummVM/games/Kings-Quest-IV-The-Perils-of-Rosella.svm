@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[King's-Quest-Quest-for-the-Crown-VGA-Remake]
-description=King's Quest I: Quest for the Crown (SCI/DOS/English)
-path=~/gaming/ScummVM/data/King's Quest 1 - Quest for the Crown (Floppy DOS VGA Remake)
+[Kings-Quest-IV-The-Perils-of-Rosella]
+description=King's Quest IV: The Perils of Rosella (SCI/DOS/English)
+path=~/gaming/ScummVM/data/King's Quest IV - The Perils of Rosella (1988) (Floppy DOS, SCI)
 gameid=sci
 language=en
 platform=pc

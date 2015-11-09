@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[King's-Quest-II-Romancing-the-Throne-DOS]
-description=King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25"/3.5"/DOS/English)
-path=~/gaming/ScummVM/data/King's Quest 2 - Romancing the Throne (Floppy DOS)
+[Kings-Quest-III-To-Heir-Is-Human-1986]
+description=King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5"/DOS/English)
+path=~/gaming/ScummVM/data/King's Quest III - To Heir is Human (1986) (Floppy DOS)
 gameid=agi
 language=en
 platform=pc

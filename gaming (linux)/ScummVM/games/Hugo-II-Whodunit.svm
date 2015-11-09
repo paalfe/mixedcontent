@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Hugo-II-Whodunit]
 description=Hugo 2: Whodunit? (Windows/English)
-path=~/gaming/ScummVM/data/Hugo 2 - Whodunit (The Hugo Trilogy)
+path=~/gaming/ScummVM/data/Hugo II - Whodunit (1991) (Hugo II) (The Hugo Trilogy)
 gameid=hugo2
 language=en
 platform=windows

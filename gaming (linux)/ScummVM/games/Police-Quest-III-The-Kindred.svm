@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Police-Quest-III-The-Kindred]
 description=Police Quest III: The Kindred (DOS/English)
-path=~/gaming/ScummVM/data/Police Quest 3 - The Kindred (Floppy DOS)
+path=~/gaming/ScummVM/data/Police Quest III - The Kindred (1991) (Floppy DOS)
 gameid=sci
 language=en
 platform=pc

@@ -7,10 +7,10 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Day-of-the-Tentacle]
+[Maniac-Mansion-II-Day-of-the-Tentacle-1993]
 description=Day of the Tentacle (CD/English)
 talkspeed=60
-path=~/gaming/ScummVM/data/Day of the Tentacle (VGA-CD) - Roland MT-32 ROMs
+path=~/gaming/ScummVM/data/Maniac Mansion II - Day of the Tentacle (1993) (VGA-CD) (Roland MT-32 ROMs)
 subtitles=false
 gameid=tentacle
 language=en

@@ -7,15 +7,15 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Simon-the-Sorcerer-II]
-description=Simon the Sorcerer 2 (CD/Windows/English)
+[Beneath-a-Steel-Sky-1994]
+description=Beneath a Steel Sky (v0.0368 cd)
+output_rate=44100
 talkspeed=60
-path=~/gaming/ScummVM/data/Simon the Sorcerer 2 Talkie (VGA-CD)(Win)[comp] - Roland MT-32 ROMs
+alt_intro=false
+path=~/gaming/ScummVM/data/Beneath a Steel Sky (1994) (VGA-CD) (Enhanced Soundtrack) (Roland MT-32 ROMs)
 subtitles=false
-gameid=simon2
-language=en
-platform=windows
+gameid=sky
 music_driver=mt32
 opl_driver=auto
 speech_mute=false
-guioptions=launchNoLoad lang_English
+

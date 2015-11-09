@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Manhunter-New-York]
 description=Manhunter 1: New York (1.22 1988-08-31/DOS/English)
-path=~/gaming/ScummVM/data/Manhunter 1 - New York (Floppy DOS)
+path=~/gaming/ScummVM/data/Manhunter - New York (1988) (Floppy DOS)
 gameid=agi
 language=en
 platform=pc

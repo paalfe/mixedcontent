@@ -10,7 +10,7 @@ aspect_ratio=true
 [Sam-and-Max-Hit-the-Road]
 description=Sam & Max Hit the Road (CD/English)
 talkspeed=60
-path=~/gaming/ScummVM/data/Sam & Max (VGA-CD) - Roland MT-32 ROMs
+path=~/gaming/ScummVM/data/Sam & Max Hit the Road (1993) (VGA-CD) (Roland MT-32 ROMs)
 subtitles=false
 gameid=samnmax
 language=en

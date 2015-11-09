@@ -10,7 +10,7 @@ aspect_ratio=true
 [The-Dig]
 dimuse_tempo=10
 description=The Dig
-path=~/gaming/ScummVM/data/dig
+path=~/gaming/ScummVM/data/The Dig (1995)
 gameid=dig
 guioptions=sndNoMIDI 
 

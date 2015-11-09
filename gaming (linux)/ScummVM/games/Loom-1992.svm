@@ -7,10 +7,12 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Gobliins-II]
-description=Gobliins 2 CD (v1.000/DOS/English (US))
-path=~/gaming/ScummVM/data/Goblins 2 - Gobliins
-gameid=gob
-language=us
+[Loom-1992]
+description=Loom (VGA/DOS/English)
+talkspeed=142
+path=~/gaming/ScummVM/data/Loom (1992) (VGA CD Talkie)
+subtitles=false
+gameid=loom
+language=en
 platform=pc
-guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English (US)
+guioptions=sndNoSpeech sndNoMIDI lang_English

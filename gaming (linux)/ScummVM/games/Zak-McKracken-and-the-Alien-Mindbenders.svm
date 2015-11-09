@@ -10,7 +10,7 @@ aspect_ratio=true
 [Zak-McKracken-and-the-Alien-Mindbenders]
 description=Zak McKracken and the Alien Mindbenders (FM-TOWNS/English)
 talkspeed=28
-path=~/gaming/ScummVM/data/Zak McKracken (FMTOWNS)
+path=~/gaming/ScummVM/data/Zak McKracken and the Alien Mindbenders (1990) (FMTOWNS)
 gameid=zak
 language=en
 platform=fmtowns

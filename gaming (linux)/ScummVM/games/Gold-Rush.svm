@@ -10,7 +10,7 @@ aspect_ratio=true
 [Gold-Rush]
 description=Gold Rush! (DOS)
 originalsaveload=false
-path=~/gaming/ScummVM/data/Gold Rush
+path=~/gaming/ScummVM/data/Gold Rush! (1988)
 gameid=agi
 platform=pc
 guioptions=sndNoSpeech

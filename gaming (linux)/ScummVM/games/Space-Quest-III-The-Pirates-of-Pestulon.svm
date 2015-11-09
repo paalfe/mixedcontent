@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Space-Quest-III-The-Pirates-of-Pestulon]
 description=Space Quest III: The Pirates of Pestulon (DOS/English)
-path=~/gaming/ScummVM/data/Space Quest 3 - The Pirates of Pestulon (Floppy DOS)
+path=~/gaming/ScummVM/data/Space Quest III - The Pirates of Pestulon (1989) (Floppy DOS)
 gameid=sci
 language=en
 platform=pc

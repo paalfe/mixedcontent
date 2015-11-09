@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Space-Quest-The-Sarien-Encounter-VGA-Remake]
-description=Space Quest I: The Sarien Encounter (SCI/DOS/English)
-path=~/gaming/ScummVM/data/Space Quest 1 - The Sarien Encounter (Floppy DOS VGA Remake)
+[Leisure-Suit-Larry-in-the-Land-of-the-Lounge-Lizards-1991]
+description=Leisure Suit Larry in the Land of the Lounge Lizards (SCI/DOS/English)
+path=~/gaming/ScummVM/data/Leisure Suit Larry in the Land of the Lounge Lizards (1991) (Floppy DOS VGA Remake)
 gameid=sci
 language=en
 platform=pc

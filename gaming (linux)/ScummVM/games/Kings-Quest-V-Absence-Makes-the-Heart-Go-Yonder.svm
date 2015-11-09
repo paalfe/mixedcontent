@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[King's-Quest-V-Absence-Makes-the-Heart-Go-Yonder-DOS]
+[Kings-Quest-V-Absence-Makes-the-Heart-Go-Yonder]
 description=King's Quest V: Absence Makes the Heart Go Yonder (CD/DOS/English)
-path=~/gaming/ScummVM/data/King's Quest 5 - Absence Makes the Heart go Yonder (CD DOS)
+path=~/gaming/ScummVM/data/King's Quest V - Absence Makes the Heart go Yonder (1990) (CD DOS)
 gameid=sci
 language=en
 platform=pc

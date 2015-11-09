@@ -7,10 +7,10 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Monkey-Island-II-LeChucks-Revenge]
+[Monkey-Island-II-LeChucks-Revenge-1991]
 description=Monkey Island 2: LeChuck's Revenge (FM-TOWNS/English)
 talkspeed=60
-path=~/gaming/ScummVM/data/Monkey Island 2 (FMTOWNS) - Roland MT-32 ROMs
+path=~/gaming/ScummVM/data/Monkey Island II - LeChuck's Revenge (1991) (FMTOWNS) (Roland MT-32 ROMs)
 subtitles=true
 gameid=monkey2
 language=en

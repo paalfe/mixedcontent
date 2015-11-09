@@ -10,7 +10,7 @@ aspect_ratio=true
 [Indiana-Jones-and-the-Fate-of-Atlantis]
 description=Indiana Jones and the Fate of Atlantis (FM-TOWNS/English)
 talkspeed=60
-path=~/gaming/ScummVM/data/Indiana Jones 4 (FMTOWNS) - Roland MT-32 ROMs
+path=~/gaming/ScummVM/data/Indiana Jones and the Fate of Atlantis (1992) (FMTOWNS) (Roland MT-32 ROMs)
 subtitles=false
 gameid=atlantis
 language=en

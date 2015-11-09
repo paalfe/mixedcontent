@@ -13,6 +13,6 @@ platform=pc
 gameid=drascula
 originalsaveload=false
 language=en
-path=~/gaming/ScummVM/data/Drascula - The Vampire Strikes Back
+path=~/gaming/ScummVM/data/Drascula - The Vampire Strikes Back (1996)
 guioptions=sndNoMIDI lang_English
 

@@ -9,7 +9,7 @@ aspect_ratio=true
 
 [Police-Quest-II-The-Vengeance]
 description=Police Quest II: The Vengeance (DOS/English)
-path=~/gaming/ScummVM/data/Police Quest 2 - The Vengeance (Floppy DOS)
+path=~/gaming/ScummVM/data/Police Quest II - The Vengeance (1988) (Floppy DOS)
 gameid=sci
 language=en
 platform=pc

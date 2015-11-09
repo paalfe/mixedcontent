@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Gobliiins]
-description=Gobliiins CD (v1.02/DOS/English (US))
-path=~/gaming/ScummVM/data/Gobliiins (1991) (Goblins I)
+[Gobliins-II]
+description=Gobliins 2 CD (v1.000/DOS/English (US))
+path=~/gaming/ScummVM/data/Gobliins II - The Prince Buffoon (1993) (Goblins II)
 gameid=gob
 language=us
 platform=pc
