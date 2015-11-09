@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Space-Quest-IV-The-Time-Rippers]
+[Space-Quest-IV-The-Time-Rippers-1992]
 description=Space Quest IV: Roger Wilco and the Time Rippers (CD/DOS/English)
-path=~/gaming/ScummVM/data/Space Quest IV - The Time Rippers (1991) (CD DOS)
+path=~/gaming/ScummVM/data/Space Quest IV - The Time Rippers (1992) (CD DOS)
 gameid=sci
 language=en
 platform=pc
