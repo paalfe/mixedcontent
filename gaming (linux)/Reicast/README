@@ -1,14 +1,24 @@
 Reicast is a Sega Dreamcast emulator.
 
  http://reicast.com/
- http://reicast.com/forums/index.php?topic=72.0    <-- Getting started with Reicast
+ http://reicast.com/forums/index.php?topic=72.0 <- Getting started
+ https://github.com/reicast/reicast-emulator
+
+
 
  https://launchpad.net/~random-stuff/+archive/ubuntu/ppa
- https://github.com/reicast/reicast-emulator
+  sudo add-apt-repository ppa:random-stuff/ppa ; 
+  sudo apt update ; 
+  sudo apt install reicast reicast-joyconfig ; 
+
+
+
+ Config dir is: $HOME/.config/reicast/
+ Data dir is:   $HOME/.local/share/reicast/
+
+
 
  https://github.com/RetroPie/RetroPie-Setup/wiki/Dreamcast
  https://www.loveroms.com/extras/dreamcast-bios.php
 
- Config dir is: $HOME/.config/reicast/
- Data dir is:   $HOME/.local/share/reicast/
 
