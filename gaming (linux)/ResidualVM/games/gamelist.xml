@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Monkey-Island-IV-Escape-From-Monkey-Island.rvm</path>
+		<name>Monkey Island IV: Escape From Monkey Island</name>
+		<desc>The game begins with Guybrush Threepwood and Elaine Marley returning to Mêlée Island from their honeymoon, which they embarked on in the epilogue of The Curse of Monkey Island. Here they find that Elaine has been declared officially dead, her position as governor has been revoked and her mansion is scheduled to be demolished. The governorship is up for election, and suddenly a person known as Charles L. Charles presents himself as the lead candidate. As Elaine begins her campaign to recover her position, Guybrush meets again with three of his old "friends", Meathook, Otis and Carla and heads out to recover the Marley family heirlooms and obtain the legal documents to save her mansion. During his trip, Guybrush learns of the Marley family guarding a secret known as the Ultimate Insult, an insult so insidious, it destroys the spirit of those who hear it. He also winds up being framed for bank robbery by crook Peg-Nosed Pete at the hiring of the Australian Ozzie Mandrill, but manages to prove his innocence.</desc>
+		<image>./images/Monkey-Island-IV-Escape-From-Monkey-Island-image.jpg</image>
+		<releasedate>20001106T000000</releasedate>
+		<developer>LucasArts</developer>
+		<publisher>LucasArts</publisher>
+		<genre>Adventure</genre>
+		<players></players>
+	</game>
+</gameList>
