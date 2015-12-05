@@ -1,0 +1,19 @@
+[residualvm]
+savepath=~/gaming/ResidualVM/saves
+extrapath=~/gaming/ResidualVM/extras
+themepath=~/gaming/ResidualVM/themes
+gui_theme=modern
+fullscreen=true
+aspect_ratio=true
+
+[Monkey-Island-IV-Escape-From-Monkey-Island]
+description=Escape From Monkey Island (Windows/English)
+check_gamedata=false
+datausr_load=false
+path=~/gaming/ResidualVM/data/Monkey Island IV - Escape From Monkey Island (2000) (win-english)
+engine_speed=62
+gameid=monkey4
+language=en
+platform=windows
+guioptions=sndNoMIDI gameOption1 lang_English
+

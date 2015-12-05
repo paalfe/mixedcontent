@@ -1,0 +1,575 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Beneath-a-Steel-Sky-1994]
+description=Beneath a Steel Sky (v0.0368 cd)
+output_rate=44100
+talkspeed=60
+alt_intro=false
+path=~/gaming/ScummVM/data/Beneath a Steel Sky (1994) (VGA-CD) (Enhanced Soundtrack) (Roland MT-32 ROMs)
+subtitles=false
+gameid=sky
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+
+[Broken-Sword-II-The-Smoking-Mirror-1997]
+description=Broken Sword II: The Smoking Mirror
+path=~/gaming/ScummVM/data/Broken Sword II - The Smoking Mirror (1997)
+gameid=sword2
+guioptions=sndNoMIDI noAspect
+
+[Broken-Sword-The-Shadow-of-the-Templars-1996]
+description=Broken Sword: The Shadow of the Templars
+path=~/gaming/ScummVM/data/Broken Sword - The Shadow of the Templars (1996)
+gameid=sword1
+guioptions=sndNoMIDI noAspect
+
+[Discworld]
+description=Discworld (CD/DOS/English)
+mute=false
+dclick_speed=10
+speech_volume=192
+talkspeed=56
+path=~/gaming/ScummVM/data/Discworld (1995) (CD DOS v2) (Enhanced Soundtrack)
+subtitles=false
+gameid=tinsel
+language=en
+output_rate=44100
+sfx_volume=192
+music_volume=192
+platform=pc
+music_driver=auto
+opl_driver=auto
+speech_mute=false
+guioptions=lang_English
+
+[Discworld-II-Missing-Presumed]
+description=Discworld 2: Missing Presumed ...!? (CD/DOS/English (GB))
+dclick_speed=10
+speech_volume=192
+talkspeed=58
+path=~/gaming/ScummVM/data/Discworld II - Missing Presumed (1996) (CD DOS)
+subtitles=false
+gameid=tinsel
+language=gb
+sfx_volume=192
+music_volume=192
+platform=pc
+guioptions=noAspect lang_English (GB)
+
+[Drascula-The-Vampire-Strikes-Back]
+description=Drascula: The Vampire Strikes Back (DOS/English)
+platform=pc
+gameid=drascula
+originalsaveload=false
+language=en
+path=~/gaming/ScummVM/data/Drascula - The Vampire Strikes Back (1996)
+guioptions=sndNoMIDI lang_English
+
+
+[Flight-of-the-Amazon-Queen]
+description=Flight of the Amazon Queen (Talkie/DOS/English)
+talkspeed=60
+alt_intro=false
+path=~/gaming/ScummVM/data/Flight of the Amazon Queen (1995) (Roland MT-32 ROMs)
+subtitles=false
+gameid=queen
+language=en
+platform=pc
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions=gameOption1 lang_English
+
+[Full-Throttle]
+dimuse_tempo=10
+description=Full Throttle (Version B/English)
+talkspeed=85
+path=~/gaming/ScummVM/data/Full Throttle (1995)
+gameid=ft
+language=en
+guioptions=sndNoMIDI lang_English
+
+[Gobliiins]
+description=Gobliiins CD (v1.02/DOS/English (US))
+path=~/gaming/ScummVM/data/Gobliiins (1991) (Goblins I)
+gameid=gob
+language=us
+platform=pc
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English (US)
+
+[Gobliins-II]
+description=Gobliins 2 CD (v1.000/DOS/English (US))
+path=~/gaming/ScummVM/data/Gobliins II - The Prince Buffoon (1993) (Goblins II)
+gameid=gob
+language=us
+platform=pc
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English (US)
+
+[Goblins-Quest-III]
+description=Goblins Quest 3 CD (v1.02/DOS/English)
+path=~/gaming/ScummVM/data/Goblins Quest III (1993) (Goblins III)
+gameid=gob
+language=en
+platform=pc
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English
+
+[Gold-Rush]
+description=Gold Rush! (DOS)
+originalsaveload=false
+path=~/gaming/ScummVM/data/Gold Rush! (1988)
+gameid=agi
+platform=pc
+guioptions=sndNoSpeech
+
+[Hugo-III-Jungle-of-Doom]
+description=Hugo 3: Jungle of Doom (Windows/English)
+path=~/gaming/ScummVM/data/Hugo III - Jungle of Doom (1992) (Hugo III) (The Hugo Trilogy)
+gameid=hugo3
+language=en
+platform=windows
+guioptions=lang_English
+
+[Hugo-II-Whodunit]
+description=Hugo 2: Whodunit? (Windows/English)
+path=~/gaming/ScummVM/data/Hugo II - Whodunit (1991) (Hugo II) (The Hugo Trilogy)
+gameid=hugo2
+language=en
+platform=windows
+guioptions=lang_English
+
+[Hugos-House-of-Horrors]
+description=Hugo 1: Hugo's House of Horrors (Windows/English)
+path=~/gaming/ScummVM/data/Hugo's House of Horrors (1990) (Hugo I) (The Hugo Trilogy)
+gameid=hugo1
+language=en
+platform=windows
+guioptions=lang_English
+
+[I-Have-No-Mouth-and-I-Must-Scream]
+description=I Have No Mouth and I Must Scream (DOS/English)
+path=~/gaming/ScummVM/data/I Have No Mouth and I Must Scream (1995) (gog.com 2.0.0.3 vorbis3)
+gameid=saga
+language=en
+platform=pc
+guioptions=noAspect lang_English
+
+
+[Indiana-Jones-and-the-Fate-of-Atlantis]
+description=Indiana Jones and the Fate of Atlantis (FM-TOWNS/English)
+talkspeed=60
+path=~/gaming/ScummVM/data/Indiana Jones and the Fate of Atlantis (1992) (FMTOWNS) (Roland MT-32 ROMs)
+subtitles=false
+gameid=atlantis
+language=en
+platform=fmtowns
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions=midiAdLib midiTowns midiMt32 noAspect lang_English
+
+[Indiana-Jones-and-the-Last-Crusade]
+description=Indiana Jones and the Last Crusade (FM-TOWNS/English)
+path=~/gaming/ScummVM/data/Indiana Jones and the Last Crusade (1989) (FMTOWNS)
+gameid=indy3
+language=en
+platform=fmtowns
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
+
+[Inherit-the-Earth-Quest-for-the-Orb]
+description=Inherit the Earth: Quest for the Orb (Windows/Linux/DOS CD Version/DOS/English)
+output_rate=44100
+talkspeed=60
+path=~/gaming/ScummVM/data/Inherit the Earth - Quest for the Orb (1994) (VGA-CD) (Enhanced Soundtrack) (Roland MT-32 ROMs)
+subtitles=false
+gameid=saga
+language=en
+platform=pc
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions=lang_English
+
+[Kings-Quest-III-To-Heir-Is-Human-1986]
+description=King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5"/DOS/English)
+path=~/gaming/ScummVM/data/King's Quest III - To Heir is Human (1986) (Floppy DOS)
+gameid=agi
+language=en
+platform=pc
+guioptions=sndNoSpeech lang_English
+
+[Kings-Quest-II-Romancing-the-Throne-1985]
+description=King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25"/3.5"/DOS/English)
+path=~/gaming/ScummVM/data/King's Quest II - Romancing the Throne (1985) (Floppy DOS)
+gameid=agi
+language=en
+platform=pc
+guioptions=sndNoSpeech lang_English
+
+[Kings-Quest-IV-The-Perils-of-Rosella]
+description=King's Quest IV: The Perils of Rosella (SCI/DOS/English)
+path=~/gaming/ScummVM/data/King's Quest IV - The Perils of Rosella (1988) (Floppy DOS, SCI)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
+
+[Kings-Quest-Quest-for-the-Crown-1990]
+description=King's Quest I: Quest for the Crown (SCI/DOS/English)
+path=~/gaming/ScummVM/data/King's Quest - Quest for the Crown (1990) (Floppy DOS EGA Remake)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
+
+[Kings-Quest-V-Absence-Makes-the-Heart-Go-Yonder]
+description=King's Quest V: Absence Makes the Heart Go Yonder (CD/DOS/English)
+path=~/gaming/ScummVM/data/King's Quest V - Absence Makes the Heart go Yonder (1990) (CD DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=gameOption1 gameOption2 gameOption3 lang_English
+
+[Kings-Quest-VI-Heir-Today-Gone-Tomorrow]
+description=King's Quest VI: Heir Today, Gone Tomorrow (CD/Windows/English)
+path=~/gaming/ScummVM/data/King's Quest VI - Heir Today, Gone Tomorrow (1992) (CD DOS, Windows)
+gameid=sci
+language=en
+platform=windows
+guioptions=noAspect gameOption1 gameOption2 gameOption3 gameOption5 lang_English
+
+[Leisure-Suit-Larry-II-Goes-Looking-for-Love-in-Several-Wrong-Places]
+description=Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS/English)
+path=~/gaming/ScummVM/data/Leisure Suit Larry II - Goes looking for Love (In Several Wrong Places) (1988) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
+
+[Leisure-Suit-Larry-III-Passionate-Patti-in-Pursuit-of-the-Pulsating-Pectorals]
+description=Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (DOS/English)
+path=~/gaming/ScummVM/data/Leisure Suit Larry III - Passionate Patti in Pursuit of the Pulsating Pectorals (1989) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
+
+[Leisure-Suit-Larry-in-the-Land-of-the-Lounge-Lizards-1991]
+description=Leisure Suit Larry in the Land of the Lounge Lizards (SCI/DOS/English)
+path=~/gaming/ScummVM/data/Leisure Suit Larry in the Land of the Lounge Lizards (1991) (Floppy DOS VGA Remake)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
+
+[Leisure-Suit-Larry-VI-Shape-Up-or-Slip-Out-1994]
+description=Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/English)
+path=~/gaming/ScummVM/data/Leisure Suit Larry VI - Shape Up or Slip Out (1994) (CD DOS SVGA Talkie)
+gameid=sci
+language=en
+platform=pc
+guioptions=gameOption1 gameOption2 gameOption3 lang_English
+
+[Leisure-Suit-Larry-V-Passionate-Patti-Does-a-Little-Undercover-Work]
+description=Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work (DOS/English)
+path=~/gaming/ScummVM/data/Leisure Suit Larry V - Passionate Patty Does a Little Undercover Work (1991) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
+
+[Loom-1992]
+description=Loom (VGA/DOS/English)
+talkspeed=142
+path=~/gaming/ScummVM/data/Loom (1992) (VGA CD Talkie)
+subtitles=false
+gameid=loom
+language=en
+platform=pc
+guioptions=sndNoSpeech sndNoMIDI lang_English
+
+[Loom-FMTOWNS-0-standard]
+description=Loom (FM-TOWNS/English) standard
+talkspeed=57
+path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
+gameid=loom
+language=en
+platform=fmtowns
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
+
+# boot_param 0=standard, 1=novice, and 2=expert difficulty level.
+boot_param=0
+
+
+[Loom-FMTOWNS-1-novice]
+description=Loom (FM-TOWNS/English) novice
+talkspeed=57
+path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
+gameid=loom
+language=en
+platform=fmtowns
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
+
+# boot_param 0=standard, 1=novice, and 2=expert difficulty level.
+boot_param=1
+
+
+[Loom-FMTOWNS-2-expert]
+description=Loom (FM-TOWNS/English) expert
+talkspeed=57
+path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
+gameid=loom
+language=en
+platform=fmtowns
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
+
+# boot_param 0=standard, 1=novice, and 2=expert difficulty level.
+boot_param=2
+
+
+[Lure-of-the-Temptress]
+description=Lure of the Temptress (VGA/DOS/English)
+extra=VGA
+path=~/gaming/ScummVM/data/Lure of the Temptress (1992) (Floppy DOS)
+gameid=lure
+language=en
+platform=pc
+guioptions=sndNoSpeech lang_English
+
+[Manhunter-II-San-Francisco]
+description=Manhunter 2: San Francisco (3.03 1989-08-17 5.25"/DOS/English)
+path=~/gaming/ScummVM/data/Manhunter II - San Francisco (1989) (Floppy DOS)
+gameid=agi
+language=en
+platform=pc
+guioptions=sndNoSpeech lang_English
+
+[Manhunter-New-York]
+description=Manhunter 1: New York (1.22 1988-08-31/DOS/English)
+path=~/gaming/ScummVM/data/Manhunter - New York (1988) (Floppy DOS)
+gameid=agi
+language=en
+platform=pc
+guioptions=sndNoSpeech lang_English
+
+[Maniac-Mansion-1989]
+description=Maniac Mansion (V2/DOS/English)
+path=~/gaming/ScummVM/data/Maniac Mansion (1989) (Enhanced)
+gameid=maniac
+language=en
+platform=pc
+guioptions=sndNoSpeech sndNoMIDI midiAdLib lang_English
+
+[Maniac-Mansion-II-Day-of-the-Tentacle-1993]
+description=Day of the Tentacle (CD/English)
+talkspeed=60
+path=~/gaming/ScummVM/data/Maniac Mansion II - Day of the Tentacle (1993) (VGA-CD) (Roland MT-32 ROMs)
+subtitles=false
+gameid=tentacle
+language=en
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions= lang_English
+
+
+[Monkey-Island-III-The-Curse-of-Monkey-Island]
+dimuse_tempo=10
+description=The Curse of Monkey Island (Windows/English)
+talkspeed=28
+path=~/gaming/ScummVM/data/Monkey Island III - The Curse of Monkey Island (1997)
+gameid=comi
+language=en
+platform=windows
+guioptions=sndNoMIDI noAspect lang_English
+
+
+[Monkey-Island-II-LeChucks-Revenge-1991]
+description=Monkey Island 2: LeChuck's Revenge (FM-TOWNS/English)
+talkspeed=60
+path=~/gaming/ScummVM/data/Monkey Island II - LeChuck's Revenge (1991) (FMTOWNS) (Roland MT-32 ROMs)
+subtitles=true
+gameid=monkey2
+language=en
+platform=fmtowns
+music_driver=mt32
+opl_driver=auto
+speech_mute=true
+guioptions=sndNoSpeech midiAdLib midiTowns midiMt32 noAspect lang_English
+
+[Monkey-Island-The-Secret-of-Monkey-Island-1990]
+description=The Secret of Monkey Island (FM-TOWNS/English)
+talkspeed=85
+path=~/gaming/ScummVM/data/Monkey Island - The Secret of Monkey Island (1990) (FMTOWNS) (CD music)
+subtitles=true
+gameid=monkey
+language=en
+platform=fmtowns
+music_driver=auto
+opl_driver=auto
+speech_mute=true
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
+
+[Police-Quest-III-The-Kindred]
+description=Police Quest III: The Kindred (DOS/English)
+path=~/gaming/ScummVM/data/Police Quest III - The Kindred (1991) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
+
+[Police-Quest-II-The-Vengeance]
+description=Police Quest II: The Vengeance (DOS/English)
+path=~/gaming/ScummVM/data/Police Quest II - The Vengeance (1988) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
+
+[Police-Quest-In-Pursuit-of-the-Death-Angel-1992]
+description=Police Quest: In Pursuit of the Death Angel (SCI/DOS/English)
+path=~/gaming/ScummVM/data/Police Quest - In Pursuite of the Death Angel (1992) (Floppy DOS VGA Remake)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
+
+[Sam-and-Max-Hit-the-Road]
+description=Sam & Max Hit the Road (CD/English)
+talkspeed=60
+path=~/gaming/ScummVM/data/Sam & Max Hit the Road (1993) (VGA-CD) (Roland MT-32 ROMs)
+subtitles=false
+gameid=samnmax
+language=en
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions=lang_English
+
+[Simon-the-Sorcerer-1995]
+description=Simon the Sorcerer 1 (CD/Windows/English)
+output_rate=44100
+talkspeed=60
+path=~/gaming/ScummVM/data/Simon the Sorcerer (1995) (VGA-CD Win Talkie) (Enhanced Soundtrack) (Roland MT-32 ROMs)
+subtitles=false
+gameid=simon1
+language=en
+platform=windows
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions=sndNoSubs launchNoLoad lang_English
+
+[Simon-the-Sorcerer-II-The-Lion-the-Wizard-and-the-Wardrobe]
+description=Simon the Sorcerer 2 (CD/Windows/English)
+talkspeed=60
+path=~/gaming/ScummVM/data/Simon the Sorcerer II - The Lion, the Wizard and the Wardrobe (1995) (VGA-CD Win Talkie) (Roland MT-32 ROMs)
+subtitles=false
+gameid=simon2
+language=en
+platform=windows
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions=launchNoLoad lang_English
+
+[Space-Quest-III-The-Pirates-of-Pestulon]
+description=Space Quest III: The Pirates of Pestulon (DOS/English)
+path=~/gaming/ScummVM/data/Space Quest III - The Pirates of Pestulon (1989) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
+
+[Space-Quest-II-Vohauls-Revenge-1987]
+description=Space Quest II: Vohaul's Revenge (2.0F 1989-01-05 3.5"/DOS/English)
+path=~/gaming/ScummVM/data/Space Quest II - Vohaul's Revenge (1987) (Floppy DOS)
+gameid=agi
+language=en
+platform=pc
+guioptions=sndNoSpeech lang_English
+
+[Space-Quest-IV-The-Time-Rippers-1992]
+description=Space Quest IV: Roger Wilco and the Time Rippers (CD/DOS/English)
+path=~/gaming/ScummVM/data/Space Quest IV - The Time Rippers (1992) (CD DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=gameOption1 gameOption2 gameOption3 gameOption6 lang_English
+
+[Space-Quest-The-Sarien-Encounter-1991]
+description=Space Quest I: The Sarien Encounter (SCI/DOS/English)
+path=~/gaming/ScummVM/data/Space Quest - The Sarien Encounter (1991) (Floppy DOS VGA Remake)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
+
+[Space-Quest-V-The-Next-Mutation]
+description=Space Quest V: The Next Mutation (DOS/English)
+path=~/gaming/ScummVM/data/Space Quest V - The Next Mutation (1993) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
+
+[The-7th-Guest]
+description=The 7th Guest (DOS/English)
+output_rate=44100
+talkspeed=60
+fast_movie_speed=false
+path=~/gaming/ScummVM/data/The 7th Guest (1993) (CD DOS) (Enhanced Soundtrack)
+subtitles=false
+gameid=groovie
+language=en
+platform=pc
+music_driver=auto
+opl_driver=auto
+speech_mute=false
+guioptions=sndNoSubs sndNoSFX midiAdLib midiMt32 midiGM noAspect gameOption1 lang_English
+
+[The-Dig]
+dimuse_tempo=10
+description=The Dig
+path=~/gaming/ScummVM/data/The Dig (1995)
+gameid=dig
+guioptions=sndNoMIDI 
+
+[Toonstruck]
+description=Toonstruck (DOS/English)
+path=~/gaming/ScummVM/data/Toonstruck (1996) (CD)
+gameid=toon
+language=en
+platform=pc
+guioptions=lang_English
+
+[Touche-The-Adventures-of-the-Fifth-Musketeer]
+description=Touche: The Adventures of the Fifth Musketeer (DOS/English)
+output_rate=44100
+talkspeed=60
+path=~/gaming/ScummVM/data/Touche - The Adventures of the Fifth Musketeer (1995) (CD DOS) (Enhanced Soundtrack)
+subtitles=false
+gameid=touche
+language=en
+music_volume=192
+platform=pc
+music_driver=auto
+opl_driver=auto
+speech_mute=false
+guioptions= lang_English
+
+[Zak-McKracken-and-the-Alien-Mindbenders]
+description=Zak McKracken and the Alien Mindbenders (FM-TOWNS/English)
+talkspeed=28
+path=~/gaming/ScummVM/data/Zak McKracken and the Alien Mindbenders (1990) (FMTOWNS)
+gameid=zak
+language=en
+platform=fmtowns
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
