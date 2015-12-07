@@ -19,7 +19,7 @@ https://launchpad.net/~i30817/+archive/ubuntu/dosbox-patched
 sudo add-apt-repository -y ppa:i30817/dosbox-patched ; 
 sudo apt update ; 
 sudo apt install dosbox:i386 ; 
-sudo /usr/share/mt32-rom-data/mt32rom-setup --set-roms "$HOME/roms/DOSBox/extras/Roland ROMs (MT32 and CM32L)" ; 
+sudo /usr/share/mt32-rom-data/mt32rom-setup --set-roms "$HOME/gaming/DOSBox/extras/Roland ROMs (MT32 and CM32L)" ; 
 
 
 mt32rom filenames MUST be UPPERCASE.
