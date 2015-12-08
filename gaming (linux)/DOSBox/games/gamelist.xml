@@ -324,6 +324,19 @@ Twinsen eventually gathers together four fragments making up a key which must be
 		<genre>Action</genre>
 	</game>
 	<game>
+		<path>./MDK - Murder Death Kill (1997) (gog.com).conf</path>
+		<name>MDK</name>
+		<desc>In this 3D shoot 'em up, you play Kurt, and your job is to save the world. Aliens have sent 8 giant fortresses to destroy earth. You run and jump through 6 missions of strange 3D worlds and kill the "Stream Riders" with your machine gun arm. Precise platform jumps are part of the challenge.
+
+Kurt is equipped with a special battle suit with an included parachute and a sniper interface (allowing you to aim precise shooting while standing still) embedded in your helmet. Further weaponry enhancements are available as you progress through the game.</desc>
+		<image>./images/MDK - Murder Death Kill (1997) (gog.com)-image.jpg</image>
+		<rating>1</rating>
+		<releasedate>19970701T000000</releasedate>
+		<developer>Shiny</developer>
+		<publisher>Interplay</publisher>
+		<genre>Shooter</genre>
+	</game>
+	<game>
 		<path>./Microsoft Windows 3.11 (1993).conf</path>
 		<name>Microsoft Windows 3.11</name>
 		<image>./images/Microsoft Windows 3.11 (1993)-image.jpg</image>
@@ -716,6 +729,23 @@ Hire staff members and keep them happy. While a hospital’s purpose is to heal 
 		<players></players>
 	</game>
 	<game>
+		<path>./Ugh! (1992).conf</path>
+		<name>Ugh!</name>
+		<desc>His girlfriend had always had great expectations and one day, by an incredible chance an apple which has fallen right down our caveman's head creates a thought of an aircraft that he can use to earn money. So he makes the machine and uses it for the transport--for picking the other cave friends up and dropping them to their desired destinations. 
+
+Ugh! is an action game where you must complete 69 levels, riding inside a pedal-powered helicopter to pick up passengers and carry them to their destinations. Each level is made of a series of platforms, with several cave entrances. Cavemen walk out of the caves and loudly announce where they want to go. You have to land your helicopter taxi next to the passenger and wait until he crawls inside (if you land on him, he'll fall into the water at the bottom of the level, although he can still be rescued) and then fly to the cave that he wants to get to. Controlling the vehicle is a bit complicated - you cannot directly fly up or down; instead, you have to keep pedalling to fly up, and cease pedalling when you want to go downwards. Bumping into a wall too hard will cause a game over and force you to restart the level. There is also a time limit for each level. To finish a level, you have to serve a number of customers. 
+
+There are some dinosaur adversaries on certain levels - a pterodactyl which appears unexpectedly and flies across the screen, and a triceratops which becomes agitated when you land near and charges at your taxi. 
+
+As you pedal, you exert energy. To refill your energy so that you can keep pedalling, you can pick up a rock and toss it at a tree, making a fruit drop down. Eat the fruit to get more energy.</desc>
+		<image>./images/Ugh! (1992)-image.jpg</image>
+		<releasedate>19920101T000000</releasedate>
+		<developer>EGOSOFT GmbH</developer>
+		<publisher>Play Byte </publisher>
+		<genre>Action</genre>
+		<players></players>
+	</game>
+	<game>
 		<path>./Warcraft II - Beyond the Dark Portal (1996).conf</path>
 		<name>Warcraft II: Beyond The Dark Portal</name>
 		<desc>Warcraft II: Beyond the Dark Portal is an expansion pack for Warcraft II: Tides of Darkness. After defeating the Orcish Horde and capturing the survivors, the Human Alliance attempts to destroy the Dark Portal. However, whilst they destroy the portal, the rift that joins the Orcs' world of Draenor to Azeroth remains.
@@ -763,6 +793,25 @@ For the next fifteen years, one faction of Orcs demanded that the portal be clos
 		<releasedate>19940115T000000</releasedate>
 		<developer>Blizzard Entertainment</developer>
 		<publisher>Blizzard Entertainment</publisher>
+		<genre>Strategy</genre>
+		<players></players>
+	</game>
+	<game>
+		<path>./Z (1996) (Renegade).conf</path>
+		<name>Z</name>
+		<desc>is... a real-time wargame in a totally free environment, unhampered by discrete turns or dull hex grids. A hair-raising race for territory and resources as you attempt to crush your opponent completely before he overpowers you. An intuitive control interface - no need to wade through a large and boring manual, just pick up and play. Super smooth multidirectional scrolling. Twenty challenging levels played over five deadly planets each with a unique terrain ranging from frozen Arctic wastes to nightmarish lands of fire and lava.
+
+Z has... robot soldiers with individual personalities which determine how they react to different situations and how effectively they carry out your orders - will they chicken and run, or march gung-ho into the jaws of hell itself? Six robot types with unique personalities and their own weapons, ranging from humble rifles to machine guns and antitank missile launchers. Robots perform up to 40 different actions, created with an incredible 2000 frames of animation. Eleven types of hardware for your robots to control, from tanks, jeeps and armoured personnel carriers to gattling guns and missile launchers. Many different buildings, including factories, radar and repair installations, to capture and control.
+
+Z gives... you sophisticated computer opponents with many individual styles of play. Fast and frantic multiplayer combat. Battle against another human opponents over serial or modem link or link up to four machines on a network. building factories, radar and repair installations, to capture and control.
+
+Z features... four megabytes of stunning in-game graphics. Earth-shattering explosions with tons of shrapnel and flying debris. Over 30 minutes of humorous video sequences with digital audio. A conditional music system which reflects in real-time the state of the battle. Digitised voices for your robot leaders to report on battlefield activity. Extra features that are automatically enabled on higher specification machines: real-time sprite scaling and rotation and SVGA mode.
+
+Z is... the fastest, funniest, most frantic, feature-packed action-strategy game you'll play this century!</desc>
+		<image>./images/Z (1996) (Renegade)-image.jpg</image>
+		<releasedate>19960701T000000</releasedate>
+		<developer>Bitmap Brothers</developer>
+		<publisher>Virgin Interactive</publisher>
 		<genre>Strategy</genre>
 		<players></players>
 	</game>
