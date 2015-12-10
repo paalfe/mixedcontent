@@ -1,8 +1,8 @@
-# If applications do NOT detect a controller when connected via Bluetooth and won't even recognize manual binding, 
+# If applications do NOT detect the 8Bitdo controller when connected via Bluetooth and won't even recognize manual binding, 
 # fix this by adding these udev rules to force detection - https://github.com/paalfe/mixedcontent/blob/master/udev_rules.d/99-8bitdo-bluetooth-controllers.rules. 
 # Add the udev rules file to "/etc/udev/rules.d/99-8bitdo-bluetooth-controllers.rules" and reboot. 
 # Forum thread: http://libretro.com/forums/showthread.php?t=3649 
-# https://hg.libsdl.org/SDL/file/704a0bfecf75/README-linux.txt
+# Useful reading: https://hg.libsdl.org/SDL/file/704a0bfecf75/README-linux.txt
 
 # 8Bitdo FC30 1P GamePad Bluetooth mode(START) mode(START+R)
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 GamePad", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
