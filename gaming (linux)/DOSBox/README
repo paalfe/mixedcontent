@@ -1,9 +1,5 @@
 USAGE:
- dosbox -conf dosbox.conf -conf games/<FILENAME>.conf
-
-USAGE IF USING DOSBox SVN-Daum:
- dosbox -conf dosbox_svn-daum.conf -conf games/<FILENAME>.conf
-
+ dosbox -conf games/<FILENAME>.conf
 
 ------------------------------------------------------------------------------------
 gog.com Linux SH installers is usually created by Makeself combined with MojoSetup, 
