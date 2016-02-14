@@ -7,7 +7,7 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Discworld-1995]
+[Discworld-I-1995]
 description=Discworld (CD/DOS/English)
 mute=false
 dclick_speed=10

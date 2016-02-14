@@ -26,13 +26,13 @@ description=Broken Sword II: The Smoking Mirror
 path=~/gaming/ScummVM/data/Broken Sword II - The Smoking Mirror (1997)
 guioptions=sndNoMIDI noAspect
 
-[Broken-Sword-The-Shadow-of-the-Templars-1996]
+[Broken-Sword-I-The-Shadow-of-the-Templars-1996]
 gameid=sword1
 description=Broken Sword: The Shadow of the Templars
 path=~/gaming/ScummVM/data/Broken Sword - The Shadow of the Templars (1996)
 guioptions=sndNoMIDI noAspect
 
-[Discworld-1995]
+[Discworld-I-1995]
 description=Discworld (CD/DOS/English)
 mute=false
 dclick_speed=10
@@ -244,7 +244,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
 
-[Kings-Quest-Quest-for-the-Crown-1990]
+[Kings-Quest-I-Quest-for-the-Crown-1990]
 description=King's Quest I: Quest for the Crown (SCI/DOS/English)
 path=~/gaming/ScummVM/data/King's Quest - Quest for the Crown (1990) (Floppy DOS EGA Remake)
 gameid=sci
@@ -284,7 +284,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
 
-[Leisure-Suit-Larry-in-the-Land-of-the-Lounge-Lizards-1991]
+[Leisure-Suit-Larry-I-In-the-Land-of-the-Lounge-Lizards-1991]
 description=Leisure Suit Larry in the Land of the Lounge Lizards (SCI/DOS/English)
 path=~/gaming/ScummVM/data/Leisure Suit Larry in the Land of the Lounge Lizards (1991) (Floppy DOS VGA Remake)
 gameid=sci
@@ -368,7 +368,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech lang_English
 
-[Manhunter-New-York-1988]
+[Manhunter-I-New-York-1988]
 description=Manhunter 1: New York (1.22 1988-08-31/DOS/English)
 path=~/gaming/ScummVM/data/Manhunter - New York (1988) (Floppy DOS)
 gameid=agi
@@ -376,7 +376,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech lang_English
 
-[Maniac-Mansion-1989]
+[Maniac-Mansion-I-1989]
 description=Maniac Mansion (V2/DOS/English)
 path=~/gaming/ScummVM/data/Maniac Mansion (1989) (Enhanced)
 gameid=maniac
@@ -419,7 +419,7 @@ opl_driver=auto
 speech_mute=true
 guioptions=sndNoSpeech midiAdLib midiTowns midiMt32 noAspect lang_English
 
-[Monkey-Island-The-Secret-of-Monkey-Island-1990]
+[Monkey-Island-I-The-Secret-of-Monkey-Island-1990]
 description=The Secret of Monkey Island (FM-TOWNS/English)
 talkspeed=85
 path=~/gaming/ScummVM/data/Monkey Island - The Secret of Monkey Island (1990) (FMTOWNS) (CD music)
@@ -448,7 +448,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
 
-[Police-Quest-In-Pursuit-of-the-Death-Angel-1992]
+[Police-Quest-I-In-Pursuit-of-the-Death-Angel-1992]
 description=Police Quest: In Pursuit of the Death Angel (SCI/DOS/English)
 path=~/gaming/ScummVM/data/Police Quest - In Pursuite of the Death Angel (1992) (Floppy DOS VGA Remake)
 gameid=sci
@@ -468,7 +468,7 @@ opl_driver=auto
 speech_mute=false
 guioptions=lang_English
 
-[Simon-the-Sorcerer-1995]
+[Simon-the-Sorcerer-I-1995]
 description=Simon the Sorcerer 1 (CD/Windows/English)
 output_rate=44100
 talkspeed=60
@@ -495,6 +495,14 @@ opl_driver=auto
 speech_mute=false
 guioptions=launchNoLoad lang_English
 
+[Soltys-1995]
+platform=pc
+gameid=soltys
+description=Soltys (Soltys Freeware v1.0/DOS/English)
+language=en
+path=~/gaming/ScummVM/data/Soltys (1995) (scummvm.org en-v1.0)
+guioptions=gameOption1 lang_English
+
 [Space-Quest-III-The-Pirates-of-Pestulon-1989]
 description=Space Quest III: The Pirates of Pestulon (DOS/English)
 path=~/gaming/ScummVM/data/Space Quest III - The Pirates of Pestulon (1989) (Floppy DOS)
@@ -519,7 +527,7 @@ language=en
 platform=pc
 guioptions=gameOption1 gameOption2 gameOption3 gameOption6 lang_English
 
-[Space-Quest-The-Sarien-Encounter-1991]
+[Space-Quest-I-The-Sarien-Encounter-1991]
 description=Space Quest I: The Sarien Encounter (SCI/DOS/English)
 path=~/gaming/ScummVM/data/Space Quest - The Sarien Encounter (1991) (Floppy DOS VGA Remake)
 gameid=sci

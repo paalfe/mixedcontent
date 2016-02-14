@@ -7,7 +7,7 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Kings-Quest-Quest-for-the-Crown-1990]
+[Kings-Quest-I-Quest-for-the-Crown-1990]
 description=King's Quest I: Quest for the Crown (SCI/DOS/English)
 path=~/gaming/ScummVM/data/King's Quest - Quest for the Crown (1990) (Floppy DOS EGA Remake)
 gameid=sci

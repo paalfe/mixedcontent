@@ -7,9 +7,9 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Police-Quest-In-Pursuit-of-the-Death-Angel-1992]
-description=Police Quest: In Pursuit of the Death Angel (SCI/DOS/English)
-path=~/gaming/ScummVM/data/Police Quest - In Pursuite of the Death Angel (1992) (Floppy DOS VGA Remake)
+[Leisure-Suit-Larry-I-The-Land-of-the-Lounge-Lizards-1991]
+description=Leisure Suit Larry in the Land of the Lounge Lizards (SCI/DOS/English)
+path=~/gaming/ScummVM/data/Leisure Suit Larry in the Land of the Lounge Lizards (1991) (Floppy DOS VGA Remake)
 gameid=sci
 language=en
 platform=pc

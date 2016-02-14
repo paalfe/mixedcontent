@@ -7,7 +7,7 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Maniac-Mansion-1989]
+[Maniac-Mansion-I-1989]
 description=Maniac Mansion (V2/DOS/English)
 path=~/gaming/ScummVM/data/Maniac Mansion (1989) (Enhanced)
 gameid=maniac

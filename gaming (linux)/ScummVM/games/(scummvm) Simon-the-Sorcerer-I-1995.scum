@@ -7,7 +7,7 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Simon-the-Sorcerer-1995]
+[Simon-the-Sorcerer-I-1995]
 description=Simon the Sorcerer 1 (CD/Windows/English)
 output_rate=44100
 talkspeed=60

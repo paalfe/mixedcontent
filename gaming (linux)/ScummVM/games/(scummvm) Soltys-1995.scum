@@ -7,10 +7,11 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Gold-Rush-1988]
-description=Gold Rush! (DOS)
-originalsaveload=false
-path=~/gaming/ScummVM/data/Gold Rush! (1988)
-gameid=agi
+[Soltys-1995]
 platform=pc
-guioptions=sndNoSpeech
+gameid=soltys
+description=Soltys (Soltys Freeware v1.0/DOS/English)
+language=en
+path=~/gaming/ScummVM/data/Soltys (1995) (scummvm.org en-v1.0)
+guioptions=gameOption1 lang_English
+

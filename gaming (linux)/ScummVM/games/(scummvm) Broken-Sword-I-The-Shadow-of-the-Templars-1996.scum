@@ -7,7 +7,7 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Broken-Sword-The-Shadow-of-the-Templars-1996]
+[Broken-Sword-I-The-Shadow-of-the-Templars-1996]
 description=Broken Sword: The Shadow of the Templars
 path=~/gaming/ScummVM/data/Broken Sword - The Shadow of the Templars (1996)
 gameid=sword1
