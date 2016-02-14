@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Hugo-II-Whodunit-1991]
+description=Hugo 2: Whodunit? (DOS/English)
+path=~/gaming/ScummVM/data/Hugo II - Whodunit (1991) (DOS) (dgray.com)
+gameid=hugo2
+language=en
+platform=pc
+guioptions=lang_English

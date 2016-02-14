@@ -7,10 +7,10 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Hugo-III-Jungle-of-Doom]
-description=Hugo 3: Jungle of Doom (Windows/English)
-path=~/gaming/ScummVM/data/Hugo III - Jungle of Doom (1992) (Hugo III) (The Hugo Trilogy)
-gameid=hugo3
+[Hugo-I-House-of-Horrors-1995]
+description=Hugo 1: Hugo's House of Horrors (Windows/English)
+path=~/gaming/ScummVM/data/Hugo I - House of Horrors (1995) (Win) (gog.com 2.0.0.10)
+gameid=hugo1
 language=en
 platform=windows
 guioptions=lang_English

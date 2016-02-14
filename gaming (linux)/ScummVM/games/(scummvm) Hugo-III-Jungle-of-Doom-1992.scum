@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Hugo-III-Jungle-of-Doom-1992]
+description=Hugo 3: Jungle of Doom (DOS/English)
+path=~/gaming/ScummVM/data/Hugo III - Jungle of Doom (1992) (DOS) (dgray.com)
+gameid=hugo3
+language=en
+platform=pc
+guioptions=lang_English

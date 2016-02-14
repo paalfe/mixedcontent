@@ -1,34 +1,35 @@
 [scummvm]
-savepath=~/gaming/ScummVM/saves
-extrapath=~/gaming/ScummVM/extras
-themepath=~/gaming/ScummVM/themes
-gui_theme=scummmodern
-gfx_mode=opengl_linear
 fullscreen=true
+savepath=~/gaming/ScummVM/saves
+themepath=~/gaming/ScummVM/themes
+gfx_mode=opengl_linear
+extrapath=~/gaming/ScummVM/extras
 aspect_ratio=true
+gui_theme=scummmodern
+versioninfo=1.6.0
 
 [Beneath-a-Steel-Sky-1994]
-description=Beneath a Steel Sky (v0.0368 cd)
-output_rate=44100
 talkspeed=60
 alt_intro=false
+description=Beneath a Steel Sky (v0.0368 cd)
+opl_driver=auto
+output_rate=44100
 path=~/gaming/ScummVM/data/Beneath a Steel Sky (1994) (VGA-CD) (Enhanced Soundtrack) (Roland MT-32 ROMs)
+music_driver=mt32
+speech_mute=false
 subtitles=false
 gameid=sky
-music_driver=mt32
-opl_driver=auto
-speech_mute=false
 
 [Broken-Sword-II-The-Smoking-Mirror-1997]
+gameid=sword2
 description=Broken Sword II: The Smoking Mirror
 path=~/gaming/ScummVM/data/Broken Sword II - The Smoking Mirror (1997)
-gameid=sword2
 guioptions=sndNoMIDI noAspect
 
 [Broken-Sword-The-Shadow-of-the-Templars-1996]
+gameid=sword1
 description=Broken Sword: The Shadow of the Templars
 path=~/gaming/ScummVM/data/Broken Sword - The Shadow of the Templars (1996)
-gameid=sword1
 guioptions=sndNoMIDI noAspect
 
 [Discworld]
@@ -66,13 +67,12 @@ guioptions=noAspect lang_English (GB)
 
 [Drascula-The-Vampire-Strikes-Back]
 description=Drascula: The Vampire Strikes Back (DOS/English)
-platform=pc
-gameid=drascula
 originalsaveload=false
-language=en
 path=~/gaming/ScummVM/data/Drascula - The Vampire Strikes Back (1996)
+gameid=drascula
+language=en
+platform=pc
 guioptions=sndNoMIDI lang_English
-
 
 [Flight-of-the-Amazon-Queen]
 description=Flight of the Amazon Queen (Talkie/DOS/English)
@@ -129,25 +129,49 @@ gameid=agi
 platform=pc
 guioptions=sndNoSpeech
 
-[Hugo-III-Jungle-of-Doom]
+[Hugo-III-Jungle-of-Doom-1992]
+description=Hugo 3: Jungle of Doom (DOS/English)
+path=~/gaming/ScummVM/data/Hugo III - Jungle of Doom (1992) (DOS) (dgray.com)
+gameid=hugo3
+language=en
+platform=pc
+guioptions=lang_English
+
+[Hugo-II-Whodunit-1991]
+description=Hugo 2: Whodunit? (DOS/English)
+path=~/gaming/ScummVM/data/Hugo II - Whodunit (1991) (DOS) (dgray.com)
+gameid=hugo2
+language=en
+platform=pc
+guioptions=lang_English
+
+[Hugo-I-House-of-Horrors-1990]
+description=Hugo 1: Hugo's House of Horrors (DOS/English)
+path=~/gaming/ScummVM/data/Hugo I - House of Horrors (1990) (DOS) (dgray.com)
+gameid=hugo1
+language=en
+platform=pc
+guioptions=lang_English
+
+[Hugo-III-Jungle-of-Doom-1995]
 description=Hugo 3: Jungle of Doom (Windows/English)
-path=~/gaming/ScummVM/data/Hugo III - Jungle of Doom (1992) (Hugo III) (The Hugo Trilogy)
+path=~/gaming/ScummVM/data/Hugo III - Jungle of Doom (1995) (Win) (gog.com 2.0.0.10)
 gameid=hugo3
 language=en
 platform=windows
 guioptions=lang_English
 
-[Hugo-II-Whodunit]
+[Hugo-II-Whodunit-1995]
 description=Hugo 2: Whodunit? (Windows/English)
-path=~/gaming/ScummVM/data/Hugo II - Whodunit (1991) (Hugo II) (The Hugo Trilogy)
+path=~/gaming/ScummVM/data/Hugo II - Whodunit (1995) (Win) (gog.com 2.0.0.10)
 gameid=hugo2
 language=en
 platform=windows
 guioptions=lang_English
 
-[Hugos-House-of-Horrors]
+[Hugo-I-House-of-Horrors-1995]
 description=Hugo 1: Hugo's House of Horrors (Windows/English)
-path=~/gaming/ScummVM/data/Hugo's House of Horrors (1990) (Hugo I) (The Hugo Trilogy)
+path=~/gaming/ScummVM/data/Hugo I - House of Horrors (1995) (Win) (gog.com 2.0.0.10)
 gameid=hugo1
 language=en
 platform=windows
@@ -160,7 +184,6 @@ gameid=saga
 language=en
 platform=pc
 guioptions=noAspect lang_English
-
 
 [Indiana-Jones-and-the-Fate-of-Atlantis]
 description=Indiana Jones and the Fate of Atlantis (FM-TOWNS/English)
@@ -302,11 +325,9 @@ path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
 gameid=loom
 language=en
 platform=fmtowns
-guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
-
 # boot_param 0=standard, 1=novice, and 2=expert difficulty level.
 boot_param=0
-
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
 [Loom-FMTOWNS-1-novice]
 description=Loom (FM-TOWNS/English) novice
@@ -315,11 +336,9 @@ path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
 gameid=loom
 language=en
 platform=fmtowns
-guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
-
 # boot_param 0=standard, 1=novice, and 2=expert difficulty level.
 boot_param=1
-
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
 [Loom-FMTOWNS-2-expert]
 description=Loom (FM-TOWNS/English) expert
@@ -328,11 +347,9 @@ path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
 gameid=loom
 language=en
 platform=fmtowns
-guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
-
 # boot_param 0=standard, 1=novice, and 2=expert difficulty level.
 boot_param=2
-
+guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
 [Lure-of-the-Temptress]
 description=Lure of the Temptress (VGA/DOS/English)
@@ -377,8 +394,7 @@ language=en
 music_driver=mt32
 opl_driver=auto
 speech_mute=false
-guioptions= lang_English
-
+guioptions=lang_English
 
 [Monkey-Island-III-The-Curse-of-Monkey-Island]
 dimuse_tempo=10
@@ -389,7 +405,6 @@ gameid=comi
 language=en
 platform=windows
 guioptions=sndNoMIDI noAspect lang_English
-
 
 [Monkey-Island-II-LeChucks-Revenge-1991]
 description=Monkey Island 2: LeChuck's Revenge (FM-TOWNS/English)
@@ -540,7 +555,7 @@ dimuse_tempo=10
 description=The Dig
 path=~/gaming/ScummVM/data/The Dig (1995)
 gameid=dig
-guioptions=sndNoMIDI 
+guioptions=sndNoMIDI
 
 [Toonstruck]
 description=Toonstruck (DOS/English)
@@ -563,7 +578,7 @@ platform=pc
 music_driver=auto
 opl_driver=auto
 speech_mute=false
-guioptions= lang_English
+guioptions=lang_English
 
 [Zak-McKracken-and-the-Alien-Mindbenders]
 description=Zak McKracken and the Alien Mindbenders (FM-TOWNS/English)
@@ -573,3 +588,4 @@ gameid=zak
 language=en
 platform=fmtowns
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
+
