@@ -1,0 +1,18 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Drascula-The-Vampire-Strikes-Back-1996]
+description=Drascula: The Vampire Strikes Back (DOS/English)
+platform=pc
+gameid=drascula
+originalsaveload=false
+language=en
+path=~/gaming/ScummVM/data/Drascula - The Vampire Strikes Back (1996)
+guioptions=sndNoMIDI lang_English
+

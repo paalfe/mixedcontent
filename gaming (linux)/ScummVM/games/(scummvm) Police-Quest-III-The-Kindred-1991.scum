@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Police-Quest-III-The-Kindred-1991]
+description=Police Quest III: The Kindred (DOS/English)
+path=~/gaming/ScummVM/data/Police Quest III - The Kindred (1991) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English

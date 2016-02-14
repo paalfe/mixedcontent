@@ -32,7 +32,7 @@ description=Broken Sword: The Shadow of the Templars
 path=~/gaming/ScummVM/data/Broken Sword - The Shadow of the Templars (1996)
 guioptions=sndNoMIDI noAspect
 
-[Discworld]
+[Discworld-1995]
 description=Discworld (CD/DOS/English)
 mute=false
 dclick_speed=10
@@ -51,7 +51,7 @@ opl_driver=auto
 speech_mute=false
 guioptions=lang_English
 
-[Discworld-II-Missing-Presumed]
+[Discworld-II-Missing-Presumed-1996]
 description=Discworld 2: Missing Presumed ...!? (CD/DOS/English (GB))
 dclick_speed=10
 speech_volume=192
@@ -65,7 +65,7 @@ music_volume=192
 platform=pc
 guioptions=noAspect lang_English (GB)
 
-[Drascula-The-Vampire-Strikes-Back]
+[Drascula-The-Vampire-Strikes-Back-1996]
 description=Drascula: The Vampire Strikes Back (DOS/English)
 originalsaveload=false
 path=~/gaming/ScummVM/data/Drascula - The Vampire Strikes Back (1996)
@@ -74,7 +74,7 @@ language=en
 platform=pc
 guioptions=sndNoMIDI lang_English
 
-[Flight-of-the-Amazon-Queen]
+[Flight-of-the-Amazon-Queen-1995]
 description=Flight of the Amazon Queen (Talkie/DOS/English)
 talkspeed=60
 alt_intro=false
@@ -88,7 +88,7 @@ opl_driver=auto
 speech_mute=false
 guioptions=gameOption1 lang_English
 
-[Full-Throttle]
+[Full-Throttle-1995]
 dimuse_tempo=10
 description=Full Throttle (Version B/English)
 talkspeed=85
@@ -97,7 +97,7 @@ gameid=ft
 language=en
 guioptions=sndNoMIDI lang_English
 
-[Gobliiins]
+[Gobliiins-1991]
 description=Gobliiins CD (v1.02/DOS/English (US))
 path=~/gaming/ScummVM/data/Gobliiins (1991) (Goblins I)
 gameid=gob
@@ -105,15 +105,15 @@ language=us
 platform=pc
 guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English (US)
 
-[Gobliins-II]
+[Gobliins-II-1992]
 description=Gobliins 2 CD (v1.000/DOS/English (US))
-path=~/gaming/ScummVM/data/Gobliins II - The Prince Buffoon (1993) (Goblins II)
+path=~/gaming/ScummVM/data/Gobliins II - The Prince Buffoon (1992) (Goblins II)
 gameid=gob
 language=us
 platform=pc
 guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English (US)
 
-[Goblins-Quest-III]
+[Goblins-Quest-III-1993]
 description=Goblins Quest 3 CD (v1.02/DOS/English)
 path=~/gaming/ScummVM/data/Goblins Quest III (1993) (Goblins III)
 gameid=gob
@@ -121,7 +121,7 @@ language=en
 platform=pc
 guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English
 
-[Gold-Rush]
+[Gold-Rush-1988]
 description=Gold Rush! (DOS)
 originalsaveload=false
 path=~/gaming/ScummVM/data/Gold Rush! (1988)
@@ -177,7 +177,7 @@ language=en
 platform=windows
 guioptions=lang_English
 
-[I-Have-No-Mouth-and-I-Must-Scream]
+[I-Have-No-Mouth-and-I-Must-Scream-1995]
 description=I Have No Mouth and I Must Scream (DOS/English)
 path=~/gaming/ScummVM/data/I Have No Mouth and I Must Scream (1995) (gog.com 2.0.0.3 vorbis3)
 gameid=saga
@@ -185,7 +185,7 @@ language=en
 platform=pc
 guioptions=noAspect lang_English
 
-[Indiana-Jones-and-the-Fate-of-Atlantis]
+[Indiana-Jones-and-the-Fate-of-Atlantis-1992]
 description=Indiana Jones and the Fate of Atlantis (FM-TOWNS/English)
 talkspeed=60
 path=~/gaming/ScummVM/data/Indiana Jones and the Fate of Atlantis (1992) (FMTOWNS) (Roland MT-32 ROMs)
@@ -198,7 +198,7 @@ opl_driver=auto
 speech_mute=false
 guioptions=midiAdLib midiTowns midiMt32 noAspect lang_English
 
-[Indiana-Jones-and-the-Last-Crusade]
+[Indiana-Jones-and-the-Last-Crusade-1989]
 description=Indiana Jones and the Last Crusade (FM-TOWNS/English)
 path=~/gaming/ScummVM/data/Indiana Jones and the Last Crusade (1989) (FMTOWNS)
 gameid=indy3
@@ -206,7 +206,7 @@ language=en
 platform=fmtowns
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
-[Inherit-the-Earth-Quest-for-the-Orb]
+[Inherit-the-Earth-Quest-for-the-Orb-1994]
 description=Inherit the Earth: Quest for the Orb (Windows/Linux/DOS CD Version/DOS/English)
 output_rate=44100
 talkspeed=60
@@ -236,7 +236,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech lang_English
 
-[Kings-Quest-IV-The-Perils-of-Rosella]
+[Kings-Quest-IV-The-Perils-of-Rosella-1988]
 description=King's Quest IV: The Perils of Rosella (SCI/DOS/English)
 path=~/gaming/ScummVM/data/King's Quest IV - The Perils of Rosella (1988) (Floppy DOS, SCI)
 gameid=sci
@@ -252,7 +252,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
 
-[Kings-Quest-V-Absence-Makes-the-Heart-Go-Yonder]
+[Kings-Quest-V-Absence-Makes-the-Heart-Go-Yonder-1990]
 description=King's Quest V: Absence Makes the Heart Go Yonder (CD/DOS/English)
 path=~/gaming/ScummVM/data/King's Quest V - Absence Makes the Heart go Yonder (1990) (CD DOS)
 gameid=sci
@@ -260,7 +260,7 @@ language=en
 platform=pc
 guioptions=gameOption1 gameOption2 gameOption3 lang_English
 
-[Kings-Quest-VI-Heir-Today-Gone-Tomorrow]
+[Kings-Quest-VI-Heir-Today-Gone-Tomorrow-1992]
 description=King's Quest VI: Heir Today, Gone Tomorrow (CD/Windows/English)
 path=~/gaming/ScummVM/data/King's Quest VI - Heir Today, Gone Tomorrow (1992) (CD DOS, Windows)
 gameid=sci
@@ -268,7 +268,7 @@ language=en
 platform=windows
 guioptions=noAspect gameOption1 gameOption2 gameOption3 gameOption5 lang_English
 
-[Leisure-Suit-Larry-II-Goes-Looking-for-Love-in-Several-Wrong-Places]
+[Leisure-Suit-Larry-II-Goes-Looking-for-Love-in-Several-Wrong-Places-1988]
 description=Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS/English)
 path=~/gaming/ScummVM/data/Leisure Suit Larry II - Goes looking for Love (In Several Wrong Places) (1988) (Floppy DOS)
 gameid=sci
@@ -276,7 +276,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English
 
-[Leisure-Suit-Larry-III-Passionate-Patti-in-Pursuit-of-the-Pulsating-Pectorals]
+[Leisure-Suit-Larry-III-Passionate-Patti-in-Pursuit-of-the-Pulsating-Pectorals-1989]
 description=Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (DOS/English)
 path=~/gaming/ScummVM/data/Leisure Suit Larry III - Passionate Patti in Pursuit of the Pulsating Pectorals (1989) (Floppy DOS)
 gameid=sci
@@ -300,7 +300,7 @@ language=en
 platform=pc
 guioptions=gameOption1 gameOption2 gameOption3 lang_English
 
-[Leisure-Suit-Larry-V-Passionate-Patti-Does-a-Little-Undercover-Work]
+[Leisure-Suit-Larry-V-Passionate-Patti-Does-a-Little-Undercover-Work-1991]
 description=Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work (DOS/English)
 path=~/gaming/ScummVM/data/Leisure Suit Larry V - Passionate Patty Does a Little Undercover Work (1991) (Floppy DOS)
 gameid=sci
@@ -318,7 +318,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech sndNoMIDI lang_English
 
-[Loom-FMTOWNS-0-standard]
+[Loom-FMTOWNS-0-standard-1991]
 description=Loom (FM-TOWNS/English) standard
 talkspeed=57
 path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
@@ -329,7 +329,7 @@ platform=fmtowns
 boot_param=0
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
-[Loom-FMTOWNS-1-novice]
+[Loom-FMTOWNS-1-novice-1991]
 description=Loom (FM-TOWNS/English) novice
 talkspeed=57
 path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
@@ -340,7 +340,7 @@ platform=fmtowns
 boot_param=1
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
-[Loom-FMTOWNS-2-expert]
+[Loom-FMTOWNS-2-expert-1991]
 description=Loom (FM-TOWNS/English) expert
 talkspeed=57
 path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
@@ -351,7 +351,7 @@ platform=fmtowns
 boot_param=2
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
-[Lure-of-the-Temptress]
+[Lure-of-the-Temptress-1992]
 description=Lure of the Temptress (VGA/DOS/English)
 extra=VGA
 path=~/gaming/ScummVM/data/Lure of the Temptress (1992) (Floppy DOS)
@@ -360,7 +360,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech lang_English
 
-[Manhunter-II-San-Francisco]
+[Manhunter-II-San-Francisco-1989]
 description=Manhunter 2: San Francisco (3.03 1989-08-17 5.25"/DOS/English)
 path=~/gaming/ScummVM/data/Manhunter II - San Francisco (1989) (Floppy DOS)
 gameid=agi
@@ -368,7 +368,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech lang_English
 
-[Manhunter-New-York]
+[Manhunter-New-York-1988]
 description=Manhunter 1: New York (1.22 1988-08-31/DOS/English)
 path=~/gaming/ScummVM/data/Manhunter - New York (1988) (Floppy DOS)
 gameid=agi
@@ -396,7 +396,7 @@ opl_driver=auto
 speech_mute=false
 guioptions=lang_English
 
-[Monkey-Island-III-The-Curse-of-Monkey-Island]
+[Monkey-Island-III-The-Curse-of-Monkey-Island-1997]
 dimuse_tempo=10
 description=The Curse of Monkey Island (Windows/English)
 talkspeed=28
@@ -432,7 +432,7 @@ opl_driver=auto
 speech_mute=true
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
-[Police-Quest-III-The-Kindred]
+[Police-Quest-III-The-Kindred-1991]
 description=Police Quest III: The Kindred (DOS/English)
 path=~/gaming/ScummVM/data/Police Quest III - The Kindred (1991) (Floppy DOS)
 gameid=sci
@@ -440,7 +440,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
 
-[Police-Quest-II-The-Vengeance]
+[Police-Quest-II-The-Vengeance-1988]
 description=Police Quest II: The Vengeance (DOS/English)
 path=~/gaming/ScummVM/data/Police Quest II - The Vengeance (1988) (Floppy DOS)
 gameid=sci
@@ -456,7 +456,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
 
-[Sam-and-Max-Hit-the-Road]
+[Sam-and-Max-Hit-the-Road-1993]
 description=Sam & Max Hit the Road (CD/English)
 talkspeed=60
 path=~/gaming/ScummVM/data/Sam & Max Hit the Road (1993) (VGA-CD) (Roland MT-32 ROMs)
@@ -482,7 +482,7 @@ opl_driver=auto
 speech_mute=false
 guioptions=sndNoSubs launchNoLoad lang_English
 
-[Simon-the-Sorcerer-II-The-Lion-the-Wizard-and-the-Wardrobe]
+[Simon-the-Sorcerer-II-The-Lion-the-Wizard-and-the-Wardrobe-1995]
 description=Simon the Sorcerer 2 (CD/Windows/English)
 talkspeed=60
 path=~/gaming/ScummVM/data/Simon the Sorcerer II - The Lion, the Wizard and the Wardrobe (1995) (VGA-CD Win Talkie) (Roland MT-32 ROMs)
@@ -495,7 +495,7 @@ opl_driver=auto
 speech_mute=false
 guioptions=launchNoLoad lang_English
 
-[Space-Quest-III-The-Pirates-of-Pestulon]
+[Space-Quest-III-The-Pirates-of-Pestulon-1989]
 description=Space Quest III: The Pirates of Pestulon (DOS/English)
 path=~/gaming/ScummVM/data/Space Quest III - The Pirates of Pestulon (1989) (Floppy DOS)
 gameid=sci
@@ -527,7 +527,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
 
-[Space-Quest-V-The-Next-Mutation]
+[Space-Quest-V-The-Next-Mutation-1993]
 description=Space Quest V: The Next Mutation (DOS/English)
 path=~/gaming/ScummVM/data/Space Quest V - The Next Mutation (1993) (Floppy DOS)
 gameid=sci
@@ -535,7 +535,7 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
 
-[The-7th-Guest]
+[The-7th-Guest-1993]
 description=The 7th Guest (DOS/English)
 output_rate=44100
 talkspeed=60
@@ -550,14 +550,14 @@ opl_driver=auto
 speech_mute=false
 guioptions=sndNoSubs sndNoSFX midiAdLib midiMt32 midiGM noAspect gameOption1 lang_English
 
-[The-Dig]
+[The-Dig-1995]
 dimuse_tempo=10
 description=The Dig
 path=~/gaming/ScummVM/data/The Dig (1995)
 gameid=dig
 guioptions=sndNoMIDI
 
-[Toonstruck]
+[Toonstruck-1996]
 description=Toonstruck (DOS/English)
 path=~/gaming/ScummVM/data/Toonstruck (1996) (CD)
 gameid=toon
@@ -565,7 +565,7 @@ language=en
 platform=pc
 guioptions=lang_English
 
-[Touche-The-Adventures-of-the-Fifth-Musketeer]
+[Touche-The-Adventures-of-the-Fifth-Musketeer-1995]
 description=Touche: The Adventures of the Fifth Musketeer (DOS/English)
 output_rate=44100
 talkspeed=60
@@ -580,7 +580,7 @@ opl_driver=auto
 speech_mute=false
 guioptions=lang_English
 
-[Zak-McKracken-and-the-Alien-Mindbenders]
+[Zak-McKracken-and-the-Alien-Mindbenders-1990]
 description=Zak McKracken and the Alien Mindbenders (FM-TOWNS/English)
 talkspeed=28
 path=~/gaming/ScummVM/data/Zak McKracken and the Alien Mindbenders (1990) (FMTOWNS)

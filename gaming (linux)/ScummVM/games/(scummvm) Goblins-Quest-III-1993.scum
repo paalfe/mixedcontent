@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Goblins-Quest-III-1993]
+description=Goblins Quest 3 CD (v1.02/DOS/English)
+path=~/gaming/ScummVM/data/Goblins Quest III (1993) (Goblins III)
+gameid=gob
+language=en
+platform=pc
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English

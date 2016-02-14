@@ -1,0 +1,21 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Simon-the-Sorcerer-II-The-Lion-the-Wizard-and-the-Wardrobe-1995]
+description=Simon the Sorcerer 2 (CD/Windows/English)
+talkspeed=60
+path=~/gaming/ScummVM/data/Simon the Sorcerer II - The Lion, the Wizard and the Wardrobe (1995) (VGA-CD Win Talkie) (Roland MT-32 ROMs)
+subtitles=false
+gameid=simon2
+language=en
+platform=windows
+music_driver=mt32
+opl_driver=auto
+speech_mute=false
+guioptions=launchNoLoad lang_English

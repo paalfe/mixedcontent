@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Leisure-Suit-Larry-II-Goes-Looking-for-Love-in-Several-Wrong-Places-1988]
+description=Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS/English)
+path=~/gaming/ScummVM/data/Leisure Suit Larry II - Goes looking for Love (In Several Wrong Places) (1988) (Floppy DOS)
+gameid=sci
+language=en
+platform=pc
+guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 gameOption7 lang_English

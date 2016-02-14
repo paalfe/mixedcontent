@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Toonstruck-1996]
+description=Toonstruck (DOS/English)
+path=~/gaming/ScummVM/data/Toonstruck (1996) (CD)
+gameid=toon
+language=en
+platform=pc
+guioptions=lang_English

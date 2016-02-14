@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[Gobliiins-1991]
+description=Gobliiins CD (v1.02/DOS/English (US))
+path=~/gaming/ScummVM/data/Gobliiins (1991) (Goblins I)
+gameid=gob
+language=us
+platform=pc
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English (US)

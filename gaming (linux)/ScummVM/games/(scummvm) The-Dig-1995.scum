@@ -1,0 +1,16 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[The-Dig-1995]
+dimuse_tempo=10
+description=The Dig
+path=~/gaming/ScummVM/data/The Dig (1995)
+gameid=dig
+guioptions=sndNoMIDI 
+

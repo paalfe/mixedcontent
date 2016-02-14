@@ -1,0 +1,23 @@
+[scummvm]
+savepath=~/gaming/ScummVM/saves
+extrapath=~/gaming/ScummVM/extras
+themepath=~/gaming/ScummVM/themes
+gui_theme=scummmodern
+gfx_mode=opengl_linear
+fullscreen=true
+aspect_ratio=true
+
+[The-7th-Guest-1993]
+description=The 7th Guest (DOS/English)
+output_rate=44100
+talkspeed=60
+fast_movie_speed=false
+path=~/gaming/ScummVM/data/The 7th Guest (1993) (CD DOS) (Enhanced Soundtrack)
+subtitles=false
+gameid=groovie
+language=en
+platform=pc
+music_driver=auto
+opl_driver=auto
+speech_mute=false
+guioptions=sndNoSubs sndNoSFX midiAdLib midiMt32 midiGM noAspect gameOption1 lang_English
