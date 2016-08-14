@@ -7,7 +7,7 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Loom-1992]
+[Loom-1992-VGA-TALKIE]
 description=Loom (VGA/DOS/English)
 talkspeed=142
 path=~/gaming/ScummVM/data/Loom (1992) (VGA CD Talkie)
