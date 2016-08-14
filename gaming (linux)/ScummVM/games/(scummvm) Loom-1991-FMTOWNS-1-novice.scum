@@ -7,7 +7,7 @@ gfx_mode=opengl_linear
 fullscreen=true
 aspect_ratio=true
 
-[Loom-FMTOWNS-1-novice-1991]
+[Loom-1991-FMTOWNS-1-novice]
 description=Loom (FM-TOWNS/English) novice
 talkspeed=57
 path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
@@ -18,4 +18,3 @@ guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
 # boot_param 0=standard, 1=novice, and 2=expert difficulty level.
 boot_param=1
-
