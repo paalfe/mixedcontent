@@ -308,17 +308,17 @@ language=en
 platform=pc
 guioptions=sndNoSpeech gameOption1 gameOption2 gameOption3 lang_English
 
-[Loom-1992]
-description=Loom (VGA/DOS/English)
+[Loom-1990-EGA]
+description=Loom (EGA/DOS/English)
 talkspeed=142
-path=~/gaming/ScummVM/data/Loom (1992) (VGA CD Talkie)
+path=~/gaming/ScummVM/data/Loom (1990) (EGA)
 subtitles=false
 gameid=loom
 language=en
 platform=pc
 guioptions=sndNoSpeech sndNoMIDI lang_English
 
-[Loom-FMTOWNS-0-standard-1991]
+[Loom-1991-FMTOWNS-0-standard]
 description=Loom (FM-TOWNS/English) standard
 talkspeed=57
 path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
@@ -329,7 +329,7 @@ platform=fmtowns
 boot_param=0
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
-[Loom-FMTOWNS-1-novice-1991]
+[Loom-1991-FMTOWNS-1-novice]
 description=Loom (FM-TOWNS/English) novice
 talkspeed=57
 path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
@@ -340,7 +340,7 @@ platform=fmtowns
 boot_param=1
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
 
-[Loom-FMTOWNS-2-expert-1991]
+[Loom-1991-FMTOWNS-2-expert]
 description=Loom (FM-TOWNS/English) expert
 talkspeed=57
 path=~/gaming/ScummVM/data/Loom (1991) (FMTOWNS)
@@ -350,6 +350,16 @@ platform=fmtowns
 # boot_param 0=standard, 1=novice, and 2=expert difficulty level.
 boot_param=2
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
+
+[Loom-1992-VGA-TALKIE]
+description=Loom (VGA/DOS/English)
+talkspeed=142
+path=~/gaming/ScummVM/data/Loom (1992) (VGA CD Talkie)
+subtitles=false
+gameid=loom
+language=en
+platform=pc
+guioptions=sndNoSpeech sndNoMIDI lang_English
 
 [Lure-of-the-Temptress-1992]
 description=Lure of the Temptress (VGA/DOS/English)
@@ -596,4 +606,3 @@ gameid=zak
 language=en
 platform=fmtowns
 guioptions=sndNoSpeech sndNoMIDI midiTowns noAspect lang_English
-
