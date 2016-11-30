@@ -45,3 +45,6 @@ SUBSYSTEM=="input", ATTRS{name}=="8Bitdo Joy", MODE="0666", ENV{ID_INPUT_JOYSTIC
 
 # 8Bitdo Zero GamePad Bluetooth mode(START) mode(START+R)
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo Zero GamePad", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+
+# 8Bitdo N64 GamePad Bluetooth mode(START)
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo N64 GamePad", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
